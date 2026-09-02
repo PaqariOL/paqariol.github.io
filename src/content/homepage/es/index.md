@@ -3,7 +3,7 @@ banner:
   title: "Aprende. Experimenta. Crea"
   content: |
     
-    **Construyamos ciencia y tecnología átomo por átomo.** 
+    **Construyendo ciencia y tecnología, átomo por átomo.** 
       
     *Illari OpenLab lleva la química, la biotecnología y la nanotecnología al alcance de todos.*
   image: /images/home/banner/PQOL_IMG_WEB5.png
