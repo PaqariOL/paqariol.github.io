@@ -28,8 +28,8 @@ video_section:
   highlights:
     - "**Laboratorio**   modular, portátil, inalámbrico y alimentado con energía solar, controlado desde un celular."
     - "**+40 experimentos**   seguros y aplicados a química, energía, medio ambiente, industria y biotecnología."
-    - "**Integramos experimentación, realidad aumentada y ciencia + arte**  para transformar la curiosidad en proyectos."
-    - "**Aprendizaje basado en proyectos**    transforma conceptos científicos en experiencias que inspiran, construyen y resuelven."
+    - "<strong>Integramos experimentación, realidad aumentada y ciencia + arte<strong>  para transformar la curiosidad en proyectos."
+    - "<strong>Aprendizaje basado en proyectos<strong>   transforma conceptos científicos en experiencias que inspiran, construyen y resuelven."
  
 
 blog_themes:
