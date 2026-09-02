@@ -22,14 +22,15 @@ products_section:
 
 video_section:
   id: "IlNIGFlt4KI"
-  sectionLabel: "Historias en YouTube"
-  title: "Mira nuestros videos de divulgación y guías"
-  description: "Compartimos demostraciones y tutoriales sobre educación, química aplicada, energía y medio ambiente usando Paqari OpenLab y sus apps gratuitas."
+  sectionLabel: "Una nueva forma de aprender"
+  title: "La ciencia no solo se aprende. Se experimenta"
+  description: "**Illari OpenLab** combina hardware, software y contenidos para democratizar la experimentación científica mediante aprendizaje basado en proyectos, acercando la química, la nanotecnología y la biotecnología a todos."
   highlights:
-    - "Colecciones de divulgación y guías breves que muestran cómo funciona nuestro laboratorio modular."
-    - "Pasos para ejecutar prácticas de química, energía y nanotecnología con el kit y la comunidad."
-    - "Historias cortas sobre experimentos reales que puedes adaptar sin conexión en aula o campo."
-    
+    - "Un laboratorio modular, portátil, inalámbrico y alimentado con energía solar, controlado desde un celular."
+    - "Más de 40 experiencias prácticas para explorar química, materiales, energía, medio ambiente, industria y biotecnología."
+    - "Una plataforma que integra experimentación, realidad aumentada y ciencia + arte para transformar la curiosidad en proyectos."
+    - "Un laboratorio modular, portátil, inalámbrico y alimentado con energía solar, controlado desde un celular."
+ 
 
 blog_themes:
   title: "Temáticas del blog"
