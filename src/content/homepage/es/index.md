@@ -1,7 +1,7 @@
 ---
 banner:
   title: "Aprende, experimenta, crea..."
-  content: "Paqari OpenLab lleva la química, bio y nanotecnología al alcance de todos."
+  content: "Illari OpenLab lleva la química, la bio y la nanotecnología al alcance de todos."
   image: /images/home/banner/PQOL_IMG_WEB5.png
   button:
     label: Conoce más sobre nosotros
