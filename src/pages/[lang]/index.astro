@@ -22,43 +22,45 @@ if (!homepage) {
   homepage = await getEntry("homepage", fallbackLocale);
 }
 
-const home = homepage.data;
+const home = homepage?.data ?? {};
 const page_data = {
   ...home,
   content: home.body,
 };
 
 //console.log(homepage)
-const { banner, key_features, service, testimonial, galery, video_section, call_to_action, products_section, blog_themes } = homepage.data;
+const { banner, key_features, service, testimonial, galery, video_section, call_to_action, products_section, blog_themes } = home ?? {};
 const productsData = currentLocale === "en" ? productsEN : productsES;
 
 export async function getStaticPaths() {
   return [{ params: { lang: 'es' } }, { params: { lang: 'en' } }]
 }
+const video_path = "/images/shared/backgrounds/background-video.mp4"
 ---
 <Base>
   <!-- banner -->
-  <Banner banner={banner} />
+  {banner && <Banner banner={banner} />}
 
-  <HomeProducts section={products_section} products={productsData} />
+  {products_section && <HomeProducts section={products_section} products={productsData} />}
 
-  <VideoSpotlight videoSection={video_section} />
+  {video_section && <VideoSpotlight videoSection={video_section} />}
 
   <!-- Blog Themes -->
-  <BlogThemesHome blogThemes={blog_themes} />
+  {blog_themes && <BlogThemesHome blogThemes={blog_themes} />}
+
   {/* 
   <!-- key features -->
-  <KeyFeatures key_features={key_features} />
+  {key_features && <KeyFeatures key_features={key_features} />}
    
   <!-- service -->
-  <Service service={service} />
+  {service && <Service service={service} />}
   */} 
 
-  <GaleriaPaqari galery={galery} />  
+  {galery && <GaleriaPaqari galery={galery} />}  
 
   <!-- testimonial -->
-  <Testimonial testimonial={testimonial} />
+  {testimonial && <Testimonial testimonial={testimonial} />}
 
   <!-- call to action -->
-  <Cta call_to_action={call_to_action} />
+  {call_to_action && <Cta call_to_action={call_to_action} />}
 </Base>
