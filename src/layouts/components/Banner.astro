@@ -50,6 +50,19 @@ const renderMarkdown = (raw) => {
 ---
 
 <style>
+  /* Increase font-size for <strong> inside the first paragraph of banner text */
+  .banner-text p:first-of-type strong {
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 1.05;
+  }
+
+  /* Ensure emphasized text (<em>) displays as italic */
+  .banner-text em {
+    font-style: italic;
+    font-weight: 500;
+  }
+
   @media (max-width: 400px) {
     .banner-heading {
       font-size: 1.8rem;
@@ -58,6 +71,10 @@ const renderMarkdown = (raw) => {
 
     .banner-text {
       font-size: 1rem;
+    }
+
+    .banner-text p:first-of-type strong {
+      font-size: 1.4rem;
     }
   }
 </style>
