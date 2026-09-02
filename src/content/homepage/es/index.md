@@ -21,7 +21,7 @@ products_section:
     link: "/products"
 
 video_section:
-  id: "IlNIGFlt4KI"
+  #id: "IlNIGFlt4KI"
   #sectionLabel: "Ciencia al alcanza de todos"
   title: "La ciencia no solo se aprende. Se experimenta"
   description: "<strong>Illari OpenLab</strong> combina hardware, software y contenidos para democratizar la experimentación STEM mediante aprendizaje basado en proyectos."
