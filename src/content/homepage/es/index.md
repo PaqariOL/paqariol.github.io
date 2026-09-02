@@ -2,10 +2,10 @@
 banner:
   title: "Aprende. Experimenta. Crea"
   content: |
-    **La ciencia no solo se aprende, se experimenta.** 
-    
-    Illari OpenLab lleva la química, la bio y la nanotecnología al alcance de todos. 
-      
+    **La ciencia no solo se aprende, se experimenta.**
+
+    Illari OpenLab lleva la química, la bio y la nanotecnología al alcance de todos.
+
     *Construyamos ciencia y tecnología átomo por átomo.*
   image: /images/home/banner/PQOL_IMG_WEB5.png
   button:
@@ -129,7 +129,7 @@ testimonial:
       rating: cuatro
       content: "Con Paqari pude guiar prácticas de electroquímica sin laboratorio fijo; los estudiantes ven resultados en minutos."
     - author: Leonel Huertas
-      avatar: "/images/shared/users/user-6.png"
+      avatar: "/images/shared/users/user--6.png"
       organization: Mentor STEM
       rating: cinco
       content: "El control desde el celular y las guías offline nos permiten acompañar talleres sin preocuparnos por el internet."
@@ -139,40 +139,3 @@ testimonial:
       rating: cinco
       content: "Los módulos solares motivan a las y los jóvenes a probar sensores ambientales y compartir datos con su barrio."
     - author: Andrés Quispe
-      avatar: "/images/shared/users/user-3.png"
-      organization: Coordinador técnico
-      rating: cuatro
-      content: "La modularidad simplifica enseñar corrosión y baterías; armamos las prácticas en minutos y medimos al instante."
-    - author: Valeria Ramos
-      avatar: "/images/shared/users/user-4.png"
-      organization: Estudiante preuniversitaria
-      rating: cinco
-      content: "Las apps gratuitas me ayudaron a repetir los experimentos en casa y preparar mi portafolio científico."
-    - author: Equipo Makers Abiertos
-      avatar: "/images/shared/users/user-1.png"
-      organization: Comunidad maker
-      rating: cinco
-      content: "Poder combinar PQ-central con accesorios imprimibles nos da libertad para prototipar y documentar cada iteración."
-
-galery:
-  eyebrow: "Galería Paqari"
-  title: Galería Paqari
-  description: "Momentos que nos inspiran: talleres, prototipos y encuentros con la comunidad."
-  galery_list:
-    - name: Curvas Tafel en aula
-      image: "/images/home/gallery/Baterias2025.png"
-    - name: Catalizadores en placas
-      image: "/images/home/gallery/Pqlab_catal_96pi.png"
-    - name: Hackeando la materia
-      image: "/images/home/gallery/PqOl_hack_matter.png"
-    - name: Sensado ambiental
-      image: "/images/home/gallery/pqol2025_egqds.png"
-    - name: Materiales 2D
-      image: "/images/home/gallery/pqol2025_egraphen.png"
-    - name: Prototipos comunitarios
-      image: "/images/home/gallery/pqol2025_qgqds.png"
-    - name: Aplicaciones PQOL
-      image: "/images/home/gallery/PqOLab_applicaciones_2.png"
-    - name: Superficies y energía
-      image: "/images/home/gallery/Superficies2025.png"
----
