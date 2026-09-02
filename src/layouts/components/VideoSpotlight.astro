@@ -21,7 +21,7 @@ const { videoSection } = Astro.props;
           {videoSection.highlights.map((item: string) => (
             <li class="flex items-start gap-3 rounded-xl bg-background-offset/60 p-4 shadow-sm ring-1 ring-border/50">
               <span class="mt-1 inline-block h-2 w-2 rounded-full bg-paqariYellow shadow-[0_0_0_6px_rgba(243,164,21,0.25)]"></span>
-              <span class="text-base text-default">{item}</span>
+              <span class="text-base text-default" set:html={item}></span>
             </li>
           ))}
         </ul>
