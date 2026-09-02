@@ -13,6 +13,13 @@ banner:
     enable: true
   button_fallback_label: "Contáctanos"
 
+products_section:
+  title: "Productos destacados"
+  description: "Descubre algunos de nuestros kits y soluciones educativas diseñadas para aprender haciendo."
+  button:
+    label: "Más productos"
+    link: "/products"
+
 video_section:
   id: "IlNIGFlt4KI"
   sectionLabel: "Historias en YouTube"
@@ -22,13 +29,7 @@ video_section:
     - "Colecciones de divulgación y guías breves que muestran cómo funciona nuestro laboratorio modular."
     - "Pasos para ejecutar prácticas de química, energía y nanotecnología con el kit y la comunidad."
     - "Historias cortas sobre experimentos reales que puedes adaptar sin conexión en aula o campo."
-
-products_section:
-  title: "Productos destacados"
-  description: "Descubre algunos de nuestros kits y soluciones educativas diseñadas para aprender haciendo."
-  button:
-    label: "Más productos"
-    link: "/products"
+    
 
 blog_themes:
   title: "Temáticas del blog"
