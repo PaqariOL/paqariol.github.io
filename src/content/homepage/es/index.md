@@ -1,10 +1,13 @@
 ---
 banner:
-  title: "Aprende, experimenta, crea..."
-  content: "Illari OpenLab lleva la química, la bio y la nanotecnología al alcance de todos."
+  title: "Aprende. Experimenta. Crea"
+  subtitle: "La ciencia no solo se aprende, se experimenta."
+  content: |
+    Illari OpenLab lleva la química, la bio y la nanotecnología al alcance de todos.
+    Construyamos ciencia y tecnología átomo por átomo.
   image: /images/home/banner/PQOL_IMG_WEB5.png
   button:
-    label: Conoce más sobre nosotros
+    label: Conoce más
     link: "/about"
     enable: true
   button_fallback_label: "Contáctanos"
