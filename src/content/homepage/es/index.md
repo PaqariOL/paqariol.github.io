@@ -22,15 +22,14 @@ products_section:
 
 video_section:
   id: "IlNIGFlt4KI"
-  sectionLabel: "Una nueva forma de aprender"
+  #sectionLabel: "Ciencia al alcanza de todos"
   title: "La ciencia no solo se aprende. Se experimenta"
-  description: | 
-    **Illari OpenLab** combina hardware, software y contenidos para democratizar la experimentación científica mediante aprendizaje basado en proyectos, acercando la química, la nanotecnología y la biotecnología a todos.
+  description: "**Illari OpenLab** combina hardware, software y contenidos para democratizar la experimentación científica mediante aprendizaje basado en proyectos, acercando la química, la nanotecnología y la biotecnología a todos."
   highlights:
-    - "Un laboratorio modular, portátil, inalámbrico y alimentado con energía solar, controlado desde un celular."
-    - "Más de 40 experiencias prácticas para explorar química, materiales, energía, medio ambiente, industria y biotecnología."
-    - "Una plataforma que integra experimentación, realidad aumentada y ciencia + arte para transformar la curiosidad en proyectos."
-    - "Un laboratorio modular, portátil, inalámbrico y alimentado con energía solar, controlado desde un celular."
+    - "**Laboratorio**   modular, portátil, inalámbrico y alimentado con energía solar, controlado desde un celular."
+    - "**+40 experimentos**   seguros y aplicados a química, energía, medio ambiente, industria y biotecnología."
+    - "**Integramos experimentación, realidad aumentada y ciencia + arte**  para transformar la curiosidad en proyectos."
+    - "**Aprendizaje basado en proyectos**    transforma conceptos científicos en experiencias que inspiran, construyen y resuelven."
  
 
 blog_themes:
