@@ -25,6 +25,7 @@ video_section:
   #sectionLabel: "Ciencia al alcanza de todos"
   title: "La ciencia no solo se aprende. Se experimenta"
   description: "<strong>Illari OpenLab</strong> combina hardware, software y contenidos para democratizar la experimentación STEM mediante aprendizaje basado en proyectos."
+  image: /images/home/banner/PQOL_IMG_WEB5.png
   highlights:
     - "<strong>Laboratorio</strong>   modular, portátil, inalámbrico y alimentado con energía solar, controlado desde un celular."
     - "<strong>+40 experimentos</strong>   seguros y aplicados a química, energía, medio ambiente, industria y biotecnología."
