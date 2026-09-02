@@ -1,7 +1,6 @@
 ---
 banner:
   title: "Aprende. Experimenta. Crea"
-  subtitle: "La ciencia no solo se aprende, se experimenta."
   content: |
     **La ciencia no solo se aprende, se experimenta.** 
     
