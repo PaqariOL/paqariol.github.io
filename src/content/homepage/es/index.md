@@ -2,11 +2,7 @@
 banner:
   title: "Aprende. Experimenta. Crea"
   content: |
-    **La ciencia no solo se aprende, se experimenta.**
-
-    Illari OpenLab lleva la química, la bio y la nanotecnología al alcance de todos.
-
-    *Construyamos ciencia y tecnología átomo por átomo.*
+    La ciencia no solo se aprende, se experimenta. Illari OpenLab lleva la química, la bio y la nanotecnología al alcance de todos.  Construyamos ciencia y tecnología átomo por átomo.
   image: /images/home/banner/PQOL_IMG_WEB5.png
   button:
     label: Conoce más
@@ -129,7 +125,7 @@ testimonial:
       rating: cuatro
       content: "Con Paqari pude guiar prácticas de electroquímica sin laboratorio fijo; los estudiantes ven resultados en minutos."
     - author: Leonel Huertas
-      avatar: "/images/shared/users/user--6.png"
+      avatar: "/images/shared/users/user-6.png"
       organization: Mentor STEM
       rating: cinco
       content: "El control desde el celular y las guías offline nos permiten acompañar talleres sin preocuparnos por el internet."
@@ -138,4 +134,4 @@ testimonial:
       organization: Facilitadora comunitaria
       rating: cinco
       content: "Los módulos solares motivan a las y los jóvenes a probar sensores ambientales y compartir datos con su barrio."
-    - author: Andrés Quispe
+---
