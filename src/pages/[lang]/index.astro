@@ -8,7 +8,6 @@ import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 import BlogThemesHome from "@components/blog/BlogThemesHome.astro"
 import { getEntry } from "astro:content";
-import BackgroundVideo from "@components/BackgroundVideo.astro";
 import GaleriaPaqari from "@components/Galeria_Paqari.astro";
 import VideoSpotlight from "@layouts/components/VideoSpotlight.astro";
 import HomeProducts from "@layouts/components/HomeProducts.astro";
@@ -36,17 +35,10 @@ const productsData = currentLocale === "en" ? productsEN : productsES;
 export async function getStaticPaths() {
   return [{ params: { lang: 'es' } }, { params: { lang: 'en' } }]
 }
-const video_path = "/images/shared/backgrounds/background-video.mp4"
 ---
 <Base>
-  {/*
-  <div class="-z-50 absolute w-full h-screen bg-no-repeat bg-center lg:bg-cover bg-[url('/images/shared/backgrounds/home-background.jpg')] top-0 opacity-50 ">
-  </div>
-  */}
   <!-- banner -->
-  <Banner banner={banner}>
-    <BackgroundVideo src={video_path}/>
-  </Banner>
+  <Banner banner={banner} />
 
   <HomeProducts section={products_section} products={productsData} />
 
