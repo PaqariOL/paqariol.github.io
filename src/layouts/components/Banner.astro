@@ -2,10 +2,11 @@
 import { Image } from 'astro:assets';
 import { getRelativeLocaleUrl } from "astro:i18n";
 const { banner } = Astro.props;
-const { title, button, image, content } = banner;
+// Defensive defaults to avoid runtime errors during build
+const { title = "", button = {}, image = "", content = "" } = banner ?? {};
 const { currentLocale } = Astro;
 const aboutPath = "/about";
-const buttonLabel = button.label || banner.button_fallback_label || "";
+const buttonLabel = button?.label || banner?.button_fallback_label || "";
 
 /**
  * Render Markdown (small subset) to HTML safely:
@@ -21,7 +22,7 @@ const escapeHtml = (str) => String(str)
   .replace(/&/g, "&amp;")
   .replace(/</g, "&lt;")
   .replace(/>/g, "&gt;")
-  .replace(/\"/g, "&quot;")
+  .replace(/"/g, "&quot;")
   .replace(/'/g, "&#39;");
 
 const renderMarkdown = (raw) => {
@@ -75,11 +76,11 @@ const renderMarkdown = (raw) => {
           <h1 data-animate="fade-right" class="banner-heading banner-title text-4xl md:text-5xl font-extrabold tracking-tight leading-[1.05] text-gray-900 dark:text-white">
             {title}
           </h1>
-          <div data-animate="fade-right" class="banner-text my-4 text-lg font-semibold text-gray-700 dark:text-white/80 max-w-2xl mx-auto sm:mx-0" set:html={renderMarkdown(content)}></div>
-          {button.enable && (
+          <div data-animate="fade-right" class="banner-text my-4 text-lg font-semibold text-gray-700 dark:text-white/80 max-w-2xl mx-auto sm:mx-0" set:html={renderMarkdown(content ?? "")}></div>
+          {button?.enable && (
             <a
               class="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl px-[3px] py-[3px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paqariYellow/60"
-              href={getRelativeLocaleUrl(currentLocale ?? "", button.link || aboutPath)}
+              href={getRelativeLocaleUrl(currentLocale ?? "", button?.link || aboutPath)}
               data-animate="fade-right"
             >
               <span class="absolute inset-0 rounded-2xl bg-slate-900/60 blur-sm dark:blur-md"></span>
