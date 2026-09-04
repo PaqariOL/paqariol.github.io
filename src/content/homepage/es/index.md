@@ -42,8 +42,8 @@ blog_themes:
   blog_card_cta: "Ir al blog"
 
 call_to_action:
-  title: "Divulgación científica para todas y todos"
-  description: "Sumérgete en nuestras guías, demostraciones y charlas sobre energía, tecnología y medio ambiente creadas en Paqari OpenLab."
+  title: "La ciencia también se cuenta"
+  description: "Explora nuestros videos, guías y demostraciones para descubrir ciencia y tecnología de una forma clara, visual y accesible."
   button:
     label: "Visítanos en YouTube"
     link: "https://www.youtube.com/@IllariOpenLab"
