@@ -38,15 +38,15 @@ blog_themes:
   description: "Explora cómo la ciencia y la tecnología pueden ayudarnos a comprender y desarrollar soluciones para los desafíos que nos rodean."
   cta_label: "Ver experimentos"
   blog_card_title: "Visita el blog"
-  blog_card_description: "Descubre historias, curiosidades y tutoriales creados con la comunidad de Paqari Open Lab."
+  blog_card_description: "Descubre historias, curiosidades y tutoriales creados con la comunidad de Illari OpenLab."
   blog_card_cta: "Ir al blog"
 
 call_to_action:
   title: "Divulgación científica para todas y todos"
-  description: "Sumérgete en nuestras guías, demostraciones y charlas sobre energía, tecnología y medio ambiente creadas en Paqari Open Lab."
+  description: "Sumérgete en nuestras guías, demostraciones y charlas sobre energía, tecnología y medio ambiente creadas en Paqari OpenLab."
   button:
     label: "Visítanos en YouTube"
-    link: "https://www.youtube.com/@PaqariOpenLab"
+    link: "https://www.youtube.com/@IllariOpenLab"
   image: "/images/home/cta/sci_divulg2025.png"
 
 ##key features
@@ -121,15 +121,15 @@ service:
 
 #testimonial
 testimonial:
-  eyebrow: "Voces que guían nuestro laboratorio"
-  title: Historias reales desde nuestra comunidad
-  description: Docentes, estudiantes y aliados cuentan cómo Paqari acerca la ciencia aplicada a aulas sin laboratorio ni internet confiable.
+  #eyebrow: "Voces que guían nuestro laboratorio"
+  title: Historias que inspiran a experimentar
+  description: Docentes, estudiantes y entusiastas STEM comparten como Illari OpenLab acerca la ciencia aplicada a nuevos espacios de aprendizaje y experimentación.
   testimonial_list:
     - author: Camila Rivera
       avatar: "/images/shared/users/user-5.png"
       organization: Docente rural
       rating: cuatro
-      content: "Con Paqari pude guiar prácticas de electroquímica sin laboratorio fijo; los estudiantes ven resultados en minutos."
+      content: "Con Illari pude guiar prácticas de electroquímica sin laboratorio fijo; los estudiantes ven resultados en minutos."
     - author: Leonel Huertas
       avatar: "/images/shared/users/user-6.png"
       organization: Mentor STEM
