@@ -14,8 +14,8 @@ banner:
   button_fallback_label: "Contáctanos"
 
 products_section:
-  title: "Productos destacados"
-  description: "Descubre algunos de nuestros kits y soluciones educativas diseñadas para aprender haciendo."
+  title: "Herramientas de Illari"
+  description: "Explora las herramientas que hacen posible aprender, experimentar y crear."
   button:
     label: "Más productos"
     link: "/products"
