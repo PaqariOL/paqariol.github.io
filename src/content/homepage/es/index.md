@@ -34,9 +34,9 @@ video_section:
  
 
 blog_themes:
-  title: "Temáticas del blog"
-  description: "Explora guías, experimentos y noticias sobre nuestras líneas de divulgación y educación abierta."
-  cta_label: "Explorar temática"
+  title: "Experimenta con Illari OpenLab"
+  description: "Explora cómo la ciencia y la tecnología pueden ayudarnos a comprender y desarrollar soluciones para los desafíos que nos rodean."
+  cta_label: "Ver experimentos"
   blog_card_title: "Visita el blog"
   blog_card_description: "Descubre historias, curiosidades y tutoriales creados con la comunidad de Paqari Open Lab."
   blog_card_cta: "Ir al blog"
