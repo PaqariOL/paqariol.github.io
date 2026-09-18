@@ -1,25 +1,27 @@
 ---
-import { getEntryBySlug } from "astro:content";
+import { getEntry } from "astro:content";
 import AppSection from "./AppSection.astro";
 
 const { downloadLink, buttonLabel } = Astro.props;
 const fallbackLocale = "es";
 const locale = Astro.currentLocale ?? fallbackLocale;
 
-// Astro construye el slug incluyendo las subcarpetas internas: "resources-guides/guide-use-ar"
-let appEntry = await getEntryBySlug("pages", `${locale}/resources-guides/guide-use-ar`);
+// Astro resuelve rutas de subcarpetas utilizando getEntry de forma más consistente
+let appEntry = await getEntry("pages", `${locale}/resources-guides/guide-use-ar`);
+
 if (!appEntry) {
-  appEntry = await getEntryBySlug("pages", `${fallbackLocale}/resources-guides/guide-use-ar`);
+  appEntry = await getEntry("pages", `${fallbackLocale}/resources-guides/guide-use-ar`);
 }
 
 const app = appEntry?.data;
 ---
 
-{/* Renderizado seguro: evita que colapse la web si la entrada aún no existe */}
 {app ? (
   <AppSection app={app} downloadLink={downloadLink} buttonLabel={buttonLabel} />
 ) : (
-  <div class="text-center py-4">
-    <p class="text-text-offset">Contenido de la guía no encontrado.</p>
+  <div class="p-4 border border-dashed border-red-300 rounded-lg text-center">
+    <p class="text-red-500 font-medium">
+      No se pudo cargar la entrada: src/content/pages/{locale}/resources-guides/guide-use-ar.md
+    </p>
   </div>
 )}
