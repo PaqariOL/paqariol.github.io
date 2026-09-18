@@ -3,9 +3,9 @@ translationKey: navigation
 blog:
   subtitle: "Historias por categoría"
   cta:
-    title: "Historias con la comunidad Paqari OpenLab."
-    description: "Guías, experimentos e ideas para tu siguiente proyecto."
-    highlight: "Selecciones destacadas"
+    title: "Historias con la comunidad Illari OpenLab."
+    description: "Descubre experimentos e ideas para tu siguiente proyecto."
+    highlight: " "
   categories:
     educational:
       description: "Actividades guiadas con kits y rutas para el aula o talleres con estudiantes."
@@ -16,9 +16,9 @@ blog:
 resources:
   subtitle: "Recursos disponibles"
   cta:
-    title: "Accede a nuestros aplicativos gratuitos."
-    description: "Descargas directas, enlaces y guías rápidas para empezar."
-    highlight: "APLICATIVOS"
+    title: "Accede a los aplicativos gratuitos y guías de uso"
+    description: "Descargas directas, enlaces y guías rápidas"
+    highlight: "APLICATIVOS Y GUÍAS"
   categories:
     apps:
       description: "Aplicativos móviles con acceso libre para usar en aula y campo."
