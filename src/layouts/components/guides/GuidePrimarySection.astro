@@ -6,12 +6,20 @@ const { downloadLink, buttonLabel } = Astro.props;
 const fallbackLocale = "es";
 const locale = Astro.currentLocale ?? fallbackLocale;
 
+// Astro construye el slug incluyendo las subcarpetas internas: "resources-guides/guide-use-ar"
 let appEntry = await getEntryBySlug("pages", `${locale}/resources-guides/guide-use-ar`);
 if (!appEntry) {
   appEntry = await getEntryBySlug("pages", `${fallbackLocale}/resources-guides/guide-use-ar`);
 }
 
-const app = appEntry?.data ?? {};
+const app = appEntry?.data;
 ---
 
-<AppSection app={app} downloadLink={downloadLink} buttonLabel={buttonLabel} />
+{/* Renderizado seguro: evita que colapse la web si la entrada aún no existe */}
+{app ? (
+  <AppSection app={app} downloadLink={downloadLink} buttonLabel={buttonLabel} />
+) : (
+  <div class="text-center py-4">
+    <p class="text-text-offset">Contenido de la guía no encontrado.</p>
+  </div>
+)}
