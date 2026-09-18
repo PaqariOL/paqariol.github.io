@@ -1,5 +1,5 @@
 ---
-title: "Guía Realidad Aumentada IllOl académico "
+title: "Guía Realidad Aumentada IllOl académico"
 name: "Realidad Aumentada - guía"
 subtitle: "Guía de uso RA"
 description: "Interactúa con los atómos, moléculas y materiales"
