@@ -6,9 +6,9 @@ const { downloadLink, buttonLabel } = Astro.props;
 const fallbackLocale = "es";
 const locale = Astro.currentLocale ?? fallbackLocale;
 
-let appEntry = await getEntryBySlug("pages", `${locale}/resources-guides/app-primary-control`);
+let appEntry = await getEntryBySlug("pages", `${locale}/resources-guides/guide-use-ar`);
 if (!appEntry) {
-  appEntry = await getEntryBySlug("pages", `${fallbackLocale}/resources-guides/app-primary-control`);
+  appEntry = await getEntryBySlug("pages", `${fallbackLocale}/resources-guides/guide-use-ar`);
 }
 
 const app = appEntry?.data ?? {};
