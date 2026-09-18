@@ -1,7 +1,6 @@
 ---
 import Base from "@layouts/Base.astro";
 import PageHero from "@layouts/components/PageHero.astro";
-import AppPrimaryControl from "@layouts/components/apps/AppPrimaryControl.astro";
 import GuidePrimarySection from "@layouts/components/guides/GuidePrimarySection.astro";
 import GlowShape from "@layouts/GlowShape.astro";
 import { getEntryBySlug } from "astro:content";
@@ -14,9 +13,9 @@ export async function getStaticPaths() {
   return [{ params: { lang: "es" } }, { params: { lang: "en" } }];
 }
 
-let pageEntry = await getEntryBySlug("pages", `${locale}/resources-apps`);
+let pageEntry = await getEntryBySlug("pages", `${locale}/resources-guides`);
 if (!pageEntry) {
-  pageEntry = await getEntryBySlug("pages", `${fallbackLocale}/resources-apps`);
+  pageEntry = await getEntryBySlug("pages", `${fallbackLocale}/resources-guides`);
 }
 
 const pageData = pageEntry?.data ?? {};
@@ -27,7 +26,7 @@ const heroData = {
   index_path: "resources",
   page_title: pageData.title,
 };
-const downloadLink = pageData.downloadLink ?? "https://github.com/PaqariOL/PaqariOLab_apps";
+const downloadLink = pageData.downloadLink ?? "https://github.com/PaqariOL/PaqariOLab_guides";
 const buttonLabel = pageData.buttonLabel ?? "";
 
 ---
@@ -60,7 +59,6 @@ const buttonLabel = pageData.buttonLabel ?? "";
       dominant="to"
     />
     <div class="container space-y-12 relative">
-      <AppPrimaryControl downloadLink={downloadLink} buttonLabel={buttonLabel} />
       <GuidePrimarySection downloadLink={downloadLink} buttonLabel={buttonLabel} />
     </div>
   </section>
