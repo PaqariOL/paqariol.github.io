@@ -1,8 +1,8 @@
 ---
-title: "Compañero educativo"
-name: "IOL Académico"
-subtitle: "Compañero educativo"
-description: "Diseñado para aulas con rutas de aprendizaje, actividades y evaluaciones guiadas."
+title: "App de experimentos y RA"
+name: "Illari OLab Académico"
+subtitle: "App de experimentos y RA"
+description: "Ruta de aprendizaje, procedimientos paso a paso de experimentos aplicados."
 highlights:
   - "+40 Experimentos y Guías: Instrucciones paso a paso para el aula"
   - "Proyectos ABP: Básica, energía, medio ambiente e industria"
