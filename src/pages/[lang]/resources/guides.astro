@@ -13,6 +13,7 @@ export async function getStaticPaths() {
   return [{ params: { lang: "es" } }, { params: { lang: "en" } }];
 }
 
+// Carga del contenido traducido para la sección de guías
 let pageEntry = await getEntryBySlug("pages", `${locale}/resources-guides`);
 if (!pageEntry) {
   pageEntry = await getEntryBySlug("pages", `${fallbackLocale}/resources-guides`);
@@ -26,10 +27,11 @@ const heroData = {
   index_path: "resources",
   page_title: pageData.title,
 };
+
 const downloadLink = pageData.downloadLink ?? "https://github.com/PaqariOL/PaqariOLab_guides";
 const buttonLabel = pageData.buttonLabel ?? "";
-
 ---
+
 <Base title={pageData.title} meta_title={pageData.title} description={pageData.description}>
   <PageHero page_data={heroData} />
 
@@ -58,9 +60,10 @@ const buttonLabel = pageData.buttonLabel ?? "";
       opacity={0.25}
       dominant="to"
     />
+
     <div class="container space-y-12 relative">
-      <AppPrimaryControl downloadLink={downloadLink} buttonLabel={buttonLabel} />
-      <AppEducationCompanion downloadLink={downloadLink} buttonLabel={buttonLabel} />
+      <!-- Usamos el componente correcto de Guías en lugar de Apps -->
+      <GuidePrimarySection downloadLink={downloadLink} buttonLabel={buttonLabel} />
     </div>
   </section>
 </Base>
