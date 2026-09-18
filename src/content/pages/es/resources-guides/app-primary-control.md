@@ -1,5 +1,5 @@
 ---
-title: "Compañero educativo"
+title: "Compañero educativo ABCDE"
 name: "IOL Académico"
 subtitle: "Compañero educativo"
 description: "Diseñado para aulas con rutas de aprendizaje, actividades y evaluaciones guiadas."
