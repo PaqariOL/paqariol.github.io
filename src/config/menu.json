@@ -39,6 +39,10 @@
         {
           "name": "Apps",
           "url": "/resources/apps"
+        },
+        {
+          "name": "Guías",
+          "url": "/resources/guides"
         }
       ]
     },
