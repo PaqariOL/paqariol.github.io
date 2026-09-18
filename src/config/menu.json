@@ -36,14 +36,6 @@
       "url": "/resources",
       "hasChildren": true,
       "children": [
-        {
-          "name": "Apps",
-          "url": "/resources/apps"
-        },
-        {
-          "name": "Guías",
-          "url": "/resources/guides"
-        }
       ]
     },
     {
