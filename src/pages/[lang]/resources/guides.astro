@@ -1,0 +1,67 @@
+---
+import Base from "@layouts/Base.astro";
+import PageHero from "@layouts/components/PageHero.astro";
+import AppPrimaryControl from "@layouts/components/apps/AppPrimaryControl.astro";
+import AppEducationCompanion from "@layouts/components/apps/AppEducationCompanion.astro";
+import GlowShape from "@layouts/GlowShape.astro";
+import { getEntryBySlug } from "astro:content";
+
+const { currentLocale } = Astro;
+const fallbackLocale = "es";
+const locale = currentLocale ?? fallbackLocale;
+
+export async function getStaticPaths() {
+  return [{ params: { lang: "es" } }, { params: { lang: "en" } }];
+}
+
+let pageEntry = await getEntryBySlug("pages", `${locale}/resources-apps`);
+if (!pageEntry) {
+  pageEntry = await getEntryBySlug("pages", `${fallbackLocale}/resources-apps`);
+}
+
+const pageData = pageEntry?.data ?? {};
+const heroData = {
+  ...pageData,
+  content: pageData.description,
+  index_title: locale === "en" ? "Resources" : "Recursos",
+  index_path: "resources",
+  page_title: pageData.title,
+};
+const downloadLink = pageData.downloadLink ?? "https://github.com/PaqariOL/PaqariOLab_apps";
+const buttonLabel = pageData.buttonLabel ?? "";
+
+---
+<Base title={pageData.title} meta_title={pageData.title} description={pageData.description}>
+  <PageHero page_data={heroData} />
+
+  <section class="section pt-6 pb-20 relative overflow-hidden">
+    <GlowShape
+      size={200}
+      top={-40}
+      left={24}
+      from="var(--color-secondary)"
+      to="#4ade80"
+      fromStop={30}
+      toStop={75}
+      blur={72}
+      opacity={0.3}
+      rotate={90}
+    />
+    <GlowShape
+      size={180}
+      bottom={40}
+      right={40}
+      from="var(--color-primary)"
+      to="var(--color-secondary)"
+      fromStop={25}
+      toStop={70}
+      blur={64}
+      opacity={0.25}
+      dominant="to"
+    />
+    <div class="container space-y-12 relative">
+      <AppPrimaryControl downloadLink={downloadLink} buttonLabel={buttonLabel} />
+      <AppEducationCompanion downloadLink={downloadLink} buttonLabel={buttonLabel} />
+    </div>
+  </section>
+</Base>
