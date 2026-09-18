@@ -1,12 +1,13 @@
 ---
 title: "App principal de control"
-name: "Paqari OpenLab"
+name: "Illari OpenLab"
 subtitle: "App principal de control"
-description: "Conéctate a la unidad PQ-central, revisa pasos de experimentos y captura datos en tiempo real."
+description: "Conéctate a la unidad Illari-central, programa los experimentos y captura datos en tiempo real."
 highlights:
   - "Conexión Bluetooth con el equipo."
-  - "Presets de experimentos y alertas de seguridad."
-  - "Acceso offline a guías esenciales."
+  - "Selección de Método: Electroquímica, Química digital, Microscopío, Espectrómetro RGB, Energía"
+  - "Configuración de parámetros de los experimentos"
+  - "Análisis y comparación de los resultados obtenidos"
 image: "/images/resources/apps/Paqari_Open_lap_App.png"
 qr: "/images/resources/apps/QR_Paqari_App.png"
 ---
