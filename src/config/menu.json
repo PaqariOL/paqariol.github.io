@@ -34,7 +34,7 @@
     {
       "name": "Resources",
       "url": "/resources",
-      "hasChildren": true,
+      "hasChildren": false,
       "children": [
       ]
     },
