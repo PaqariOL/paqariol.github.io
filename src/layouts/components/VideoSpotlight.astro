@@ -31,16 +31,24 @@ const { videoSection } = Astro.props;
       <div class="relative overflow-hidden rounded-[28px] border border-white/10 bg-background/70 p-2 shadow-[0_20px_80px_-24px_rgba(0,0,0,0.45)] backdrop-blur">
         <div class="absolute inset-6 -z-10 animate-rotate-sheen rounded-full bg-[conic-gradient(#217276_10deg,transparent_140deg)] opacity-80 blur-3xl"></div>
         <div class="relative rounded-3xl bg-gradient-to-br from-background via-background-offset/60 to-background p-4">
-          <VideoComponent
-            client:load
-            src={`https://img.youtube.com/vi/${videoSection.id}/maxresdefault.jpg`}
-            height={520}
-            width={920}
-            title={videoSection.title}
-            video_id={videoSection.id}
-            video_width="w-full"
-            video_height="h-auto"
-          />
+          {videoSection.id ? (
+            <VideoComponent
+              client:load
+              src={`https://img.youtube.com/vi/${videoSection.id}/maxresdefault.jpg`}
+              height={520}
+              width={920}
+              title={videoSection.title}
+              video_id={videoSection.id}
+              video_width="w-full"
+              video_height="h-auto"
+            />
+          ) : (
+            <img
+              src={videoSection.image}
+              alt={videoSection.title}
+              class="w-full h-auto rounded-2xl object-cover shadow-lg"
+            />
+          )}
         </div>
       </div>
     </div>
