@@ -25,6 +25,7 @@ video_section:
   #sectionLabel: "Ciencia al alcanza de todos"
   title: "La ciencia no solo se aprende. Se experimenta"
   description: "<strong>Illari OpenLab</strong> combina hardware, software y contenidos para democratizar la experimentación STEM mediante aprendizaje basado en proyectos."
+  svg: /images/home/banner/illari_svgator.svg  # <-- Ruta a tu archivo SVG animado de SVGator
   image: /images/home/banner/PQOL_IMG_WEB5.png
   highlights:
     - "<strong style='display:block; text-align:center;'>Laboratorio modular, portátil e inalámbrico</strong><br> controlado desde tu celular y alimentado por energía solar"
