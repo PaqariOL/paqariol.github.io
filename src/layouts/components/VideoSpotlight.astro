@@ -32,7 +32,7 @@ const { videoSection } = Astro.props;
         <div class="absolute inset-6 -z-10 animate-rotate-sheen rounded-full bg-[conic-gradient(#217276_10deg,transparent_140deg)] opacity-80 blur-3xl"></div>
         <div class="relative rounded-3xl bg-gradient-to-br from-background via-background-offset/60 to-background p-4 flex items-center justify-center">
           {videoSection.id ? (
-            /* 1. Opción Video de YouTube */
+            /* 1. Video de YouTube */
             <VideoComponent
               client:load
               src={`https://img.youtube.com/vi/${videoSection.id}/maxresdefault.jpg`}
@@ -44,7 +44,7 @@ const { videoSection } = Astro.props;
               video_height="h-auto"
             />
           ) : videoSection.webm ? (
-            /* 2. Opción Animación WebM (SVGator) */
+            /* 2. Animación WebM */
             <video
               autoplay
               loop
@@ -53,10 +53,16 @@ const { videoSection } = Astro.props;
               class="w-full h-auto rounded-2xl object-cover shadow-lg"
             >
               <source src={videoSection.webm} type="video/webm" />
-              Tu navegador no soporta el formato de video.
             </video>
+          ) : videoSection.svg ? (
+            /* 3. Animación SVG (SVGator) */
+            <img
+              src={videoSection.svg}
+              alt={videoSection.title}
+              class="w-full h-auto rounded-2xl object-contain drop-shadow-md"
+            />
           ) : (
-            /* 3. Opción Imagen Estática (Fallback) */
+            /* 4. Imagen estática de respaldo */
             <img
               src={videoSection.image}
               alt={videoSection.title}
@@ -67,5 +73,4 @@ const { videoSection } = Astro.props;
       </div>
     </div>
   </div>
-</section>
 </section>
