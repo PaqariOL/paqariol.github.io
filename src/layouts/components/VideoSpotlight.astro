@@ -30,7 +30,8 @@ const { videoSection } = Astro.props;
     <div class="relative order-1 lg:order-1" data-animate="zoom-in">
       <div class="relative overflow-hidden rounded-[28px] border border-white/10 bg-background/70 p-2 shadow-[0_20px_80px_-24px_rgba(0,0,0,0.45)] backdrop-blur">
         <div class="absolute inset-6 -z-10 animate-rotate-sheen rounded-full bg-[conic-gradient(#217276_10deg,transparent_140deg)] opacity-80 blur-3xl"></div>
-        <div class="relative rounded-3xl bg-gradient-to-br from-background via-background-offset/60 to-background p-4 flex items-center justify-center">
+        {/* Se redujo el padding interno (p-2 sm:p-3) y se aseguró el ancho máximo (w-full max-w-[650px] mx-auto) */}
+        <div class="relative rounded-3xl bg-gradient-to-br from-background via-background-offset/60 to-background p-2 sm:p-3 flex items-center justify-center w-full max-w-[650px] mx-auto">
           {videoSection.id ? (
             /* 1. Video de YouTube */
             <VideoComponent
@@ -59,14 +60,14 @@ const { videoSection } = Astro.props;
             <img
               src={videoSection.svg}
               alt={videoSection.title}
-              class="w-full h-auto rounded-2xl object-contain drop-shadow-md"
+              class="w-full h-auto max-h-[500px] rounded-2xl object-contain drop-shadow-md"
             />
           ) : (
             /* 4. Imagen estática de respaldo */
             <img
               src={videoSection.image}
               alt={videoSection.title}
-              class="w-full h-auto rounded-2xl object-cover shadow-lg"
+              class="w-full h-auto max-h-[500px] rounded-2xl object-contain shadow-lg"
             />
           )}
         </div>
