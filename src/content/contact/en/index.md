@@ -1,7 +1,7 @@
 ---
 title: Contact
 page_title: Get in touch with our team.
-hero_tagline: "Let's design your next experiment with Paqari OpenLab"
+hero_tagline: "Let's design your next experiment with Illari OpenLab"
 hero_description: "Tell us what you want to build and we will connect you with the right kit, offline guide, or collaborator for your classroom or community."
 cta_text: "We coordinate the next steps with you."
 social_title: "Prefer to chat somewhere else?"

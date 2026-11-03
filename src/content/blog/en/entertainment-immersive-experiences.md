@@ -4,7 +4,7 @@ translationKey: blog-immersive-experiences
 subtitle: "Behind the scenes of our interactive storytelling prototypes"
 date: 2024-05-08
 image: "/images/blog/experiencias-inmersivas/featured.png"
-author: "Paqari Team"
+author: "Illari Team"
 categories:
   - entertainment
 featured: false

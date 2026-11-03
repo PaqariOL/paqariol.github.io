@@ -29,7 +29,7 @@ video_section:
   image: /images/home/banner/PQOL_IMG_WEB5.png
   highlights:
     - "<strong style='display:block; text-align:center;'>Laboratorio modular, portátil e inalámbrico</strong><br> controlado desde tu celular y alimentado por energía solar"
-    - "<strong style='display:block; text-align:center;'>+40 experimentos seguros y acesibles</strong><br> aplicados a química, energía, medio ambiente, industria y biotecnología."
+    - "<strong style='display:block; text-align:center;'>+40 experimentos seguros y accesibles</strong><br> aplicados a química, energía, medio ambiente, industria y biotecnología."
     - "<strong style='display:block; text-align:center;'>Experimentos, Realidad Aumentada y Ciencia + Arte</strong><br> para transformar la curiosidad en proyectos."
     - "<strong style='display:block; text-align:center;'>Aprendizaje basado en proyectos</strong><br> transformando conceptos científicos en experiencias que inspiran, construyen y resuelven."
  
@@ -72,7 +72,7 @@ key_features:
       content: Alimentación solar para mantener prácticas y mediciones en campo.
     - icon: "map"
       title: Apps gratuitas
-      content: Paqari OpenLab y PQOL Académico se descargan libremente con guías.
+      content: Illari OpenLab y PQOL Académico se descargan libremente con guías.
     - icon: "link"
       title: Capacitación incluida
       content: Cada paquete suma acompañamiento para docentes y facilitadores locales.
@@ -124,7 +124,7 @@ service:
 testimonial:
   #eyebrow: "Voces que guían nuestro laboratorio"
   title: Historias que inspiran a experimentar
-  description: Docentes, estudiantes y entusiastas STEM comparten como Illari OpenLab acerca la ciencia aplicada a nuevos espacios de aprendizaje y experimentación.
+  description: Docentes, estudiantes y entusiastas STEM comparten cómo Illari OpenLab acerca la ciencia aplicada a nuevos espacios de aprendizaje y experimentación.
   testimonial_list:
     - author: Camila Rivera
       avatar: "/images/shared/users/user-5.png"

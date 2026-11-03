@@ -15,7 +15,7 @@ sections:
 contact:
   location: "Puerta número 5 - Universidad Nacional de Ingeniería, Avenida Túpac Amaru 210, Rímac, Lima, Perú."
   email: "paqari.openlab@gmail.com"
-  phone: "+51 993 896 226"
+  phone: "+51 939 678 372"
   map_link: ""
-copyright: "Copyright © 2023 un tema por [PaqariOpenLab](https://google.com)"
+copyright: "© 2026 Illari OpenLab. Todos los derechos reservados."
 ---

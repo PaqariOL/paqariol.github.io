@@ -14,12 +14,12 @@ whoWeAre:
   eyebrow: "Our team"
   title: "Who We Are"
   description: >-
-    Paqari OpenLab draws from the Quechua word for “dawn,” signaling a future of accessible science.
+    Illari OpenLab draws from the Quechua word for “dawn,” signaling a future of accessible science.
     We build a modular, portable lab that blends technology, creativity, and community so any
     classroom can experiment with chemistry, energy, and nanotech without barriers.
   image:
     src: "/images/about/whoWeAre/photo-1521737604893-d14cc237f11d.jpeg"
-    alt: "Paqari team collaborating"
+    alt: "Illari team collaborating"
 vision:
   title: "Vision"
   description: >-
@@ -67,7 +67,7 @@ labImpact:
 pocketLab:
   title: "Science Anywhere"
   description: >-
-    PQ-central and our free apps (Paqari OpenLab and PQOL Academic) put the lab on your phone:
+    PQ-central and our free apps (Illari OpenLab and PQOL Academic) put the lab on your phone:
     remote control, downloadable guides, and electrochemistry, energy, and spectroscopy practices
     that fit in a portable device.
   image:
@@ -99,19 +99,19 @@ gallery:
   description: "These scenes show prototypes, solar workshops, and real practices we bring to schools and communities."
   images:
     - src: "/images/about/gallery/photo-1554384645-13eab165c24b.jpeg"
-      alt: "Battery experiments during a Paqari workshop"
+      alt: "Battery experiments during a Illari workshop"
       size: feature
     - src: "/images/about/gallery/photo-1556761175-4b46a572b786.jpeg"
       alt: "Catalysis lab kit setup for students"
       size: portrait
     - src: "/images/about/gallery/photo-1487058792275-0ad4aaf24ca7.jpeg"
-      alt: "Hackathon prototypes with Paqari OpenLab"
+      alt: "Hackathon prototypes with Illari OpenLab"
       size: landscape
     - src: "/images/about/gallery/photo-1504384308090-c894fdcc538d.jpeg"
-      alt: "Quantum dots demonstration at Paqari OpenLab"
+      alt: "Quantum dots demonstration at Illari OpenLab"
       size: square
     - src: "/images/about/gallery/photo-1515879218367-8466d910aaa4.jpeg"
-      alt: "Graphene synthesis session at Paqari OpenLab"
+      alt: "Graphene synthesis session at Illari OpenLab"
       size: statement
 
 ## our works
@@ -137,7 +137,7 @@ features:
 
 ## members
 members:
-  title: Meet the team behind Paqari
+  title: Meet the team behind Illari
   description: We combine science, design, and technology to democratize hands-on experimentation in STEM.
   member_list:
     - name: "PhD. Víctor Raúl Jauja Ccana"
@@ -149,4 +149,4 @@ members:
         - "Research stays in France, Argentina, Chile, Spain, and Brazil"
       image: "/images/about/team/Victor Raul Jauja Ccana.png"
 ---
-Paqari OpenLab brings applied science to any classroom with a modular device, free apps, and teacher support. We prepare learners for future jobs with safe and sustainable experiences.
+Illari OpenLab brings applied science to any classroom with a modular device, free apps, and teacher support. We prepare learners for future jobs with safe and sustainable experiences.

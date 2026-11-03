@@ -1,5 +1,5 @@
 ---
 translationKey: seo
-title: "Tienda Paqari Open Lab"
+title: "Tienda Illari Open Lab"
 description: "Esta es una descripción de prueba "
 ---

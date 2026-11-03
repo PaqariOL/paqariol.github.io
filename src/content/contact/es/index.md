@@ -1,7 +1,7 @@
 ---
 title: Contacto
 page_title: Ponte en contacto con nuestro equipo.
-hero_tagline: "Diseñemos tu próximo experimento con Paqari OpenLab"
+hero_tagline: "Diseñemos tu próximo experimento con Illari OpenLab"
 hero_description: "Cuéntanos qué quieres crear y te conectamos con el kit, la guía offline o la colaboración ideal para tu aula o comunidad."
 cta_text: "Coordinamos los siguientes pasos contigo."
 social_title: "¿Prefieres escribirnos por otro canal?"

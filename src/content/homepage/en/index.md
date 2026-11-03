@@ -1,7 +1,7 @@
 ---
 banner:
   title: "Learn, experiment, create..."
-  content: "Paqari OpenLab makes chemistry, bio and nanotechnology accessible to everyone."
+  content: "Illari OpenLab makes chemistry, bio and nanotechnology accessible to everyone."
   image: /images/home/banner/PQOL_IMG_WEB5.png
   button:
     label: Learn more about us
@@ -21,14 +21,14 @@ blog_themes:
   description: "Explore guides, experiments, and news about our outreach and open education lines."
   cta_label: "Explore theme"
   blog_card_title: "Visit the blog"
-  blog_card_description: "Discover stories, curiosities, and tutorials created with the Paqari Open Lab community."
+  blog_card_description: "Discover stories, curiosities, and tutorials created with the Illari Open Lab community."
   blog_card_cta: "Go to blog"
 
 video_section:
   id: "IlNIGFlt4KI"
   sectionLabel: "YouTube highlights"
   title: "Watch our outreach videos and how-to guides"
-  description: "We share demos and tutorials on education, applied chemistry, energy, and environment using Paqari OpenLab and its free apps."
+  description: "We share demos and tutorials on education, applied chemistry, energy, and environment using Illari OpenLab and its free apps."
   highlights:
     - "Outreach playlists and quick guides that show how our modular lab works."
     - "Steps to run chemistry, energy, and nanotech practices with the kit and your community."
@@ -36,7 +36,7 @@ video_section:
 
 call_to_action:
   title: "Science outreach for everyone"
-  description: "Dive into our guides, demos, and talks on energy, technology, and environment created at Paqari OpenLab."
+  description: "Dive into our guides, demos, and talks on energy, technology, and environment created at Illari OpenLab."
   button:
     label: "Visit us on YouTube"
     link: "https://www.youtube.com/@PaqariOpenLab"
@@ -64,7 +64,7 @@ key_features:
       content: Solar-ready design keeps practices and measurements running in the field.
     - icon: "map"
       title: Free apps
-      content: Paqari OpenLab and PQOL Academic are free to download with guides.
+      content: Illari OpenLab and PQOL Academic are free to download with guides.
     - icon: "link"
       title: Training included
       content: Every package adds support for teachers and local facilitators.
@@ -115,14 +115,14 @@ service:
 #testimonial
 testimonial:
   eyebrow: "Voices that guide our lab"
-  title: Stories from the Paqari community
-  description: Teachers, students, and partners explain how Paqari brings applied science to classrooms without labs or reliable internet.
+  title: Stories from the Illari community
+  description: Teachers, students, and partners explain how Illari brings applied science to classrooms without labs or reliable internet.
   testimonial_list:
     - author: Camila Rivera
       avatar: "/images/shared/users/user-5.png"
       organization: Rural teacher
       rating: four
-      content: "Paqari let me run electrochemistry labs without a fixed lab—students see data in minutes."
+      content: "Illari let me run electrochemistry labs without a fixed lab—students see data in minutes."
     - author: Leonel Huertas
       avatar: "/images/shared/users/user-6.png"
       organization: STEM mentor
@@ -150,8 +150,8 @@ testimonial:
       content: "Combining PQ-central with printable add-ons gives us freedom to prototype and document every iteration."
 
 galery:
-  eyebrow: "Paqari Gallery"
-  title: Paqari Gallery
+  eyebrow: "Illari Gallery"
+  title: Illari Gallery
   description: "Moments that inspire us: workshops, prototypes, and community gatherings."
   galery_list:
     - name: Tafel curves in class

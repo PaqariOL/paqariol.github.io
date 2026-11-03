@@ -4,7 +4,7 @@ translationKey: blog-immersive-experiences
 subtitle: "Historias interactivas que conectan tecnología y emoción"
 date: 2024-05-08
 image: "/images/blog/experiencias-inmersivas/featured.png"
-author: "Equipo Paqari"
+author: "Equipo Illari"
 categories:
   - entertainment
 featured: false

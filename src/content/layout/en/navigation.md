@@ -3,7 +3,7 @@ translationKey: navigation
 blog:
   subtitle: "Stories by category"
   cta:
-    title: "Stories with the Paqari OpenLab community."
+    title: "Stories with the Illari OpenLab community."
     description: "Guides, experiments, and ideas to spark your next project."
     highlight: "Featured picks"
   categories:

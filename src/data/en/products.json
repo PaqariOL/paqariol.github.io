@@ -2,7 +2,7 @@
   {
     "id_product": 1,
     "name": "Pq-Central",
-    "title": "Paqari-stat v1",
+    "title": "Illari-stat v1",
     "description": "Electrochemical device for potential control and current measurement. Widely used in research labs for educational applications in energy, environment, or industry.",
     "features": [
       "Wireless electrochemical control (Bluetooth) with built-in solar power",
@@ -117,7 +117,7 @@
   },
   {
     "id_product": 5,
-    "name": "Paqari-Scope",
+    "name": "Illari-Scope",
     "title": "x40 Microscope",
     "description": "A microscope for observing small-scale samples. Allows viewing from cells to materials prepared in designed experiments: microstructures, microrobots, films, etc.",
     "features": [

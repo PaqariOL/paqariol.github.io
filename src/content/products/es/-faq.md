@@ -2,12 +2,12 @@
 title: Preguntas
 faq:
   title: Preguntas Frecuentes
-  description: Resoluciones rápidas sobre Paqari OpenLab, cómo usar PQ-central, sus módulos y recursos offline.
+  description: Resoluciones rápidas sobre Illari OpenLab, cómo usar PQ-central, sus módulos y recursos offline.
   faq_list:
     - title: ¿Cómo funciona PQ-central si mi colegio no tiene internet?
       content: >-
         El equipo y las apps gratuitas operan offline; puedes controlar experimentos desde el celular y sincronizar datos cuando haya conectividad.
-    - title: ¿Qué incluye un kit básico de Paqari OpenLab?
+    - title: ¿Qué incluye un kit básico de Illari OpenLab?
       content: >-
         PQ-central, módulos seleccionados, guías descargables en PDF y acompañamiento para docentes para iniciar prácticas de inmediato.
     - title: ¿Puedo combinar módulos para diferentes áreas?

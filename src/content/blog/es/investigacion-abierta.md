@@ -4,13 +4,13 @@ translationKey: blog-open-research
 subtitle: "Herramientas científicas creadas junto a las comunidades que las usan"
 date: 2024-06-18
 image: "/images/blog/investigacion-abierta/featured.png"
-author: "Equipo Paqari"
+author: "Equipo Illari"
 categories:
   - scientific
 featured: false
 show: false
 ---
-Trabajar con científicos y comunidades requiere transparencia total. Cada proyecto empieza con un lienzo compartido donde registramos hipótesis, necesidades de equipamiento y consideraciones éticas. Ese plan guía el diseño de hardware y los flujos de software que construimos en Paqari Open Lab.
+Trabajar con científicos y comunidades requiere transparencia total. Cada proyecto empieza con un lienzo compartido donde registramos hipótesis, necesidades de equipamiento y consideraciones éticas. Ese plan guía el diseño de hardware y los flujos de software que construimos en Illari Open Lab.
 
 ## Carta de investigación abierta
 

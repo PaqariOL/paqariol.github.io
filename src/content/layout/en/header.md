@@ -1,7 +1,7 @@
 ---
 translationKey: header
 topbar:
-  location_label: "Paqari OpenLab"
+  location_label: "Illari OpenLab"
 blog:
   subtitle: "Stories by category"
   cta:

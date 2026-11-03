@@ -215,7 +215,11 @@ const fullTitle = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle;
     <ContactButton
       message={contactButtonEntry?.data?.message}
       client:load/>
-    <ChatWidget chatContent={chatContent?.data} client:load />
+    {/* El chatbot necesita un backend. En GitHub Pages solo se muestra si se define
+        PUBLIC_RAG_ENDPOINT con la URL del servidor; en desarrollo local siempre aparece. */}
+    {(import.meta.env.PUBLIC_RAG_ENDPOINT || import.meta.env.DEV) && (
+      <ChatWidget chatContent={chatContent?.data} client:load />
+    )}
 
     <script>
       const enhanceMarkdownContent = (root = document) => {

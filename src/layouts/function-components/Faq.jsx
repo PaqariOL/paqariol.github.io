@@ -15,8 +15,8 @@ const Faq = ({ data }) => {
   const headingText =
     data.faq.heading ||
     (data.faq.title.toLowerCase().includes("preguntas")
-      ? "Resuelve tus dudas con Paqari OpenLab"
-      : "Answers about Paqari OpenLab");
+      ? "Resuelve tus dudas con Illari OpenLab"
+      : "Answers about Illari OpenLab");
   return (
     <section data-animate="fade-right" className="faqs section bg-gradient-to-b from-primary/5 via-white to-secondary/5 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <div className="container max-w-[1230px]">

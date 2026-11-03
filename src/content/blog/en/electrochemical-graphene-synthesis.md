@@ -7,7 +7,7 @@ date: 2024-08-30
 image: "/images/blog/sintesis-electroquimica-grafeno/featured.png"
 cover: "/images/blog/sintesis-electroquimica-grafeno/featured.png"
 ogImage: "/images/blog/sintesis-electroquimica-grafeno/featured.png"
-author: "Paqari OpenLab"
+author: "Illari OpenLab"
 categories:
   - scientific
 featured: false

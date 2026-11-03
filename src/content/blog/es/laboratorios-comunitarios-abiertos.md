@@ -1,10 +1,10 @@
 ---
 title: "Laboratorios abiertos en movimiento"
 translationKey: blog-community-open-labs
-subtitle: "Cómo llevamos los talleres de Paqari a barrios y espacios aliados"
+subtitle: "Cómo llevamos los talleres de Illari a barrios y espacios aliados"
 date: 2024-07-12
 image: "/images/blog/laboratorios-comunitarios-abiertos/featured.png"
-author: "Equipo Paqari"
+author: "Equipo Illari"
 categories:
   - educational
 featured: false

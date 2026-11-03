@@ -4,13 +4,13 @@ translationKey: blog-open-research
 subtitle: "Building scientific tools alongside the communities that use them"
 date: 2024-06-18
 image: "/images/blog/investigacion-abierta/featured.png"
-author: "Paqari Team"
+author: "Illari Team"
 categories:
   - scientific
 featured: false
 show: false
 ---
-Working with scientists and citizen researchers means embracing transparency. Every project starts with an open canvas where we document hypotheses, equipment needs, and ethical considerations. That shared plan guides the hardware design and software pipelines we develop at Paqari Open Lab.
+Working with scientists and citizen researchers means embracing transparency. Every project starts with an open canvas where we document hypotheses, equipment needs, and ethical considerations. That shared plan guides the hardware design and software pipelines we develop at Illari Open Lab.
 
 ## Open research charter
 

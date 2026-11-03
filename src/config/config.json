@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Paqari Open Lab",
-    "base_url": "https://jhonnjc15.github.io",
+    "title": "Illari Open Lab",
+    "base_url": "https://paqariol.github.io",
     "base_path": "/",
     "trailing_slash": true,
     "favicon": "/images/shared/logos/hoja_rayo_logo.ico",
@@ -19,8 +19,8 @@
   },
 
   "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
+    "enable": false,
+    "shortname": "",
     "settings": {}
   },
 
@@ -28,14 +28,14 @@
     "footer_description": "",
     "email": "paqari.openlab@gmail.com",
     "location": "Molino del gato 200, Rímac, Lima, Perú.",
-    "phone": "+51 993 896 226",
+    "phone": "+51 939 678 372",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [PaqariOpenLab](https://google.com)"
+    "copyright": "© 2026 Illari OpenLab. All rights reserved."
   },
 
   "metadata": {
-    "meta_author": "PaqariOpenLab",
+    "meta_author": "IllariOpenLab",
     "meta_image": "/images/products/Pq-Central/Pq-Central_prod1.png",
-    "meta_description": "Paqari Open Lab astro"
+    "meta_description": "Illari Open Lab: laboratorio STEM modular, portátil y solar para aprender química, biotecnología y nanotecnología con proyectos."
   }
 }

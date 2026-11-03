@@ -1,18 +1,18 @@
 ---
-title: "Diseñamos recorridos de aprendizaje con Paqari"
+title: "Diseñamos recorridos de aprendizaje con Illari"
 translationKey: blog-learning-paths
 subtitle: "Cómo convertimos conceptos complejos en experiencias educativas accesibles"
 date: 2024-04-20
 image: "/images/blog/recorridos-de-aprendizaje/featured.png"
 cover: "/images/blog/recorridos-de-aprendizaje/featured.png"
 ogImage: "/images/blog/recorridos-de-aprendizaje/featured.png"
-author: "Equipo Paqari"
+author: "Equipo Illari"
 categories:
   - educational
 featured: false
 show: true
 ---
-Aprender debería sentirse como una conversación, no como una lista interminable de instrucciones. En Paqari Open Lab iniciamos cada proyecto mapeando los retos reales que tienen las personas al aprender. Esa investigación se transforma en un recorrido que mezcla experiencias presenciales, recursos digitales y acompañamiento comunitario.
+Aprender debería sentirse como una conversación, no como una lista interminable de instrucciones. En Illari Open Lab iniciamos cada proyecto mapeando los retos reales que tienen las personas al aprender. Esa investigación se transforma en un recorrido que mezcla experiencias presenciales, recursos digitales y acompañamiento comunitario.
 
 ## Mapa del recorrido en un vistazo
 
