@@ -5,7 +5,7 @@ const { videoSection } = Astro.props;
 ---
 <section class="section relative overflow-hidden pt-8 sm:pt-0 pb-16">
   <div class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-transparent via-paqariGreen/5 to-transparent"></div>
-  <div class="container grid gap-12 lg:grid-cols-[1fr_minmax(0,1.1fr)] lg:items-center">
+  <div class="container grid gap-12 lg:grid-cols-[3fr_minmax(0,2fr)] lg:items-center">
     <div class="space-y-5 order-2 lg:order-2" data-animate="fade-right">
       <p class="text-sm font-semibold uppercase tracking-[0.28em] text-primary">
         {videoSection.sectionLabel}
@@ -30,8 +30,8 @@ const { videoSection } = Astro.props;
     <div class="relative order-1 lg:order-1" data-animate="zoom-in">
       <div class="relative overflow-hidden rounded-[28px] border border-white/10 bg-background/70 p-2 shadow-[0_20px_80px_-24px_rgba(0,0,0,0.45)] backdrop-blur">
         <div class="absolute inset-6 -z-10 animate-rotate-sheen rounded-full bg-[conic-gradient(#217276_10deg,transparent_140deg)] opacity-80 blur-3xl"></div>
-        {/* Se redujo el padding interno (p-2 sm:p-3) y se aseguró el ancho máximo (w-full max-w-[650px] mx-auto) */}
-        <div class="relative rounded-3xl bg-gradient-to-br from-background via-background-offset/60 to-background p-2 sm:p-3 flex items-center justify-center w-full max-w-[650px] mx-auto">
+        {/* Se redujo el padding interno (p-2 sm:p-3) y se aseguró el ancho máximo (w-full max-w-[975px] mx-auto) */}
+        <div class="relative rounded-3xl bg-gradient-to-br from-background via-background-offset/60 to-background p-2 sm:p-3 flex items-center justify-center w-full max-w-[975px] mx-auto">
           {videoSection.id ? (
             /* 1. Video de YouTube */
             <VideoComponent
@@ -60,14 +60,14 @@ const { videoSection } = Astro.props;
             <img
               src={videoSection.svg}
               alt={videoSection.title}
-              class="w-full h-auto max-h-[500px] rounded-2xl object-contain drop-shadow-md"
+              class="w-full h-auto max-h-[750px] rounded-2xl object-contain drop-shadow-md"
             />
           ) : (
             /* 4. Imagen estática de respaldo */
             <img
               src={videoSection.image}
               alt={videoSection.title}
-              class="w-full h-auto max-h-[500px] rounded-2xl object-contain shadow-lg"
+              class="w-full h-auto max-h-[750px] rounded-2xl object-contain shadow-lg"
             />
           )}
         </div>
