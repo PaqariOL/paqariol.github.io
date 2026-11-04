@@ -93,8 +93,7 @@ const fullTitle = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle;
         function applyTheme() {
           try {
             const storedTheme = localStorage.getItem(LS_KEY);
-            const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-            const theme = storedTheme || (prefersDark ? "dark" : "light");
+            const theme = storedTheme || "light"; // Modo claro por defecto
 
             root.classList.toggle("dark", theme === "dark");
             root.style.colorScheme = theme === "dark" ? "dark" : "light";

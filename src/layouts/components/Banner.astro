@@ -38,8 +38,8 @@ const renderMarkdown = (raw) => {
   // Italic *text* -> <em>, avoid matching **
   s = s.replace(/(^|[^*])\*(?!\*)([^*]+?)\*(?!\*)/gs, '$1<em>$2</em>');
 
-  // Split into paragraphs on two or more newlines
-  const paragraphs = s.split(/\n{2,}/g).map(p => p.trim()).filter(Boolean);
+  // Split into paragraphs on blank lines (also lines with only spaces)
+  const paragraphs = s.split(/\n[ \t]*\n/g).map(p => p.trim()).filter(Boolean);
   const html = paragraphs.map(p => {
     // Replace remaining single newlines with <br/>
     const withLineBreaks = p.replace(/\n/g, '<br/>');
@@ -51,6 +51,10 @@ const renderMarkdown = (raw) => {
 ---
 
 <style>
+  /* Separación entre frases del banner (antes era una línea en blanco completa) */
+  .banner-text :global(p + p) {
+    margin-top: 0.875rem;
+  }
   @media (max-width: 400px) {
     .banner-heading {
       font-size: 1.8rem;
@@ -72,11 +76,11 @@ const renderMarkdown = (raw) => {
   <div class="container relative">
     <div class="grid gap-8 lg:gap-12 lg:grid-cols-[1.05fr_minmax(0,0.9fr)] lg:items-center">
       <div class="relative flex justify-center sm:justify-start lg:order-1">
-        <div class="max-w-4xl space-y-16 md:space-y-10 xl:space-y-7 text-center sm:text-left px-2 sm:px-0">
+        <div class="max-w-4xl space-y-8 md:space-y-5 xl:space-y-3.5 text-center sm:text-left px-2 sm:px-0">
           <h1 data-animate="fade-right" class="banner-heading banner-title text-4xl md:text-5xl font-extrabold tracking-tight leading-[1.05] text-gray-900 dark:text-white">
             {title}
           </h1>
-          <div data-animate="fade-right" class="banner-text my-4 text-lg font-semibold text-gray-700 dark:text-white/80 max-w-2xl mx-auto sm:mx-0" set:html={renderMarkdown(content ?? "")}></div>
+          <div data-animate="fade-right" class="banner-text my-2 text-lg font-semibold text-gray-700 dark:text-white/80 max-w-2xl mx-auto sm:mx-0" set:html={renderMarkdown(content ?? "")}></div>
           {button?.enable && (
             <a
               class="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl px-[3px] py-[3px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-paqariYellow/60"
