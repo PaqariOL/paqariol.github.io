@@ -7,8 +7,7 @@
     "features": [
       "Wireless electrochemical control (Bluetooth) with built-in solar power",
       "Modular design that allows adding new experiments",
-      "Potential range: -1.5 V to +1.5 V vs Ag",
-      "Current range: -250 µA to +250 µA"
+      "Potential and current range: ±2.25 V and ±1.5 mA"
     ],
     "images": [
       { "src": "/images/products/Pq-Central/Pq-Central_prod1.png", "isMain": true }

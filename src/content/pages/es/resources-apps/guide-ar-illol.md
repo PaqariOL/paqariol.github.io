@@ -1,10 +1,10 @@
 ---
-title: "Guía Realidad Aumentada IllOl académico"
-name: "Realidad Aumentada - guía"
+title: "Guía de Realidad Aumentada – Illari OLab Académico"
+name: "Realidad Aumentada – guía"
 subtitle: "Guía de uso RA"
-description: "Interactúa con los atómos, moléculas y materiales"
+description: "Interactúa con los átomos, moléculas y materiales"
 highlights:
-  - "Orbitalés atómicos"
+  - "Orbitales atómicos"
   - "Moléculas"
   - "Materiales"
   - "Tecnologías actuales"
