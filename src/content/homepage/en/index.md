@@ -39,7 +39,7 @@ call_to_action:
   description: "Dive into our guides, demos, and talks on energy, technology, and environment created at Illari OpenLab."
   button:
     label: "Visit us on YouTube"
-    link: "https://www.youtube.com/@PaqariOpenLab"
+    link: "https://www.youtube.com/@IllariOpenLab"
   image: "/images/home/cta/sci_divulg2025.png"
 
 ##key features

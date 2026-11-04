@@ -78,6 +78,7 @@ const topbarSocial = {
   facebook: social.facebook,
   instagram: social.instagram,
   youtube: social.youtube,
+  tiktok: social.tiktok,
   linkedin: social.linkedin,
 };
 const mapUrl = social.address || "https://www.google.com/maps/search/?api=1&query=PaqariOpenLab";
@@ -124,7 +125,7 @@ function isActive(pathname: string, baseUrl: string, locale: string) {
       </div>
       <Social
         source={topbarSocial}
-        networks={["facebook", "instagram", "youtube", "linkedin"]}
+        networks={["facebook", "instagram", "youtube", "tiktok", "linkedin"]}
         className="flex items-center gap-2 text-[15px]"
         sizeClass="h-8 w-8"
       />
