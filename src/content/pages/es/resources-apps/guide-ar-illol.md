@@ -9,5 +9,8 @@ highlights:
   - "Materiales"
   - "Tecnologías actuales"
 image: "/images/resources/apps/AR_illol_s2026.png"
-qr: "/images/resources/apps/QR_Paqari_App.png"
+qr: "/images/resources/apps/QR_guias_manuales.png"
+downloadLink: "https://github.com/PaqariOL/PaqariOLab_apps/tree/master/Guias_y_manuales"
+buttonLabel: "Ver guías y manuales"
+showOlder: "false"
 ---

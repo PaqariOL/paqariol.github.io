@@ -1,7 +1,7 @@
 [
   {
     "id_product": 1,
-    "name": "Pq-Central",
+    "name": "Illari-stat (central)",
     "title": "Illari-stat v1",
     "description": "Dispositivo electroquímico para control de potencial y medida de corriente, ampliamente utilizado en laboratorios de investigación para aplicaciones educativas en campos de energía, medio ambiente o industria",
     "features": [
@@ -35,7 +35,7 @@
     "id_product": 2,
     "name": "Energy-Chem",
     "title": "Módulo para energía",
-    "description": "Módulo para Pq-Central, permite realizar experimentos relacionados a dispositivos de generación y almacenamiento de energía (baterías, capacitores, celdas de combustible)",
+    "description": "Módulo para Illari-stat (central), permite realizar experimentos relacionados a dispositivos de generación y almacenamiento de energía (baterías, capacitores, celdas de combustible)",
     "features": [
       "Rango de voltaje: hasta 5 V",
       "Rango de corriente: hasta 500 mA",
@@ -56,8 +56,8 @@
     "available": false,
     "show": false,
     "price_soles": 30,
-    "price_note": "Compra por separado o junto a Pq-Central",
-    "purchase_context": "Módulo que opera conectado a Pq-Central o como bancada compacta para pruebas rápidas."
+    "price_note": "Compra por separado o junto a Illari-stat (central)",
+    "purchase_context": "Módulo que opera conectado a Illari-stat (central) o como bancada compacta para pruebas rápidas."
   },
   {
     "id_product": 3,
@@ -67,7 +67,7 @@
     "features": [
       "Automatización de secuencias químicas",
       "Condiciones de microfluídica para mayor precisión",
-      "Máximo 2 módulos por equipo de Pq-Central"
+      "Máximo 2 módulos por equipo de Illari-stat (central)"
     ],
     "images": [
       { "src": "/images/products/Digi-Chem/Digi-Chem_prod3.png", "isMain": true }
@@ -85,7 +85,7 @@
     "show": true,
     "price_soles": 30,
     "price_note": "Venta por separado",
-    "purchase_context": "Módulo complementario conectado a Pq-Central; operable de manera individual para tareas específicas."
+    "purchase_context": "Módulo complementario conectado a Illari-stat (central); operable de manera individual para tareas específicas."
   },
   {
     "id_product": 4,
@@ -112,8 +112,8 @@
     "available": false,
     "show": false,
     "price_soles": 30,
-    "price_note": "Funciona por separado o como módulo de Pq-Central",
-    "purchase_context": "Puede utilizarse de manera independiente como espectrofotómetro o acoplarse a Pq-Central."
+    "price_note": "Funciona por separado o como módulo de Illari-stat (central)",
+    "purchase_context": "Puede utilizarse de manera independiente como espectrofotómetro o acoplarse a Illari-stat (central)."
   },
   {
     "id_product": 5,
@@ -140,16 +140,16 @@
     "available": true,
     "show": true,
     "price_soles": 15,
-    "price_note": "Funciona por separado o como módulo de Pq-Central",
-    "purchase_context": "Compatible con Pq-Central y utilizable de forma independiente para observaciones."
+    "price_note": "Funciona por separado o como módulo de Illari-stat (central)",
+    "purchase_context": "Compatible con Illari-stat (central) y utilizable de forma independiente para observaciones."
   },
   {
     "id_product": 6,
     "name": "NanoMat-Chem",
     "title": "Módulo para la síntesis de materiales ",
-    "description": "Es un módulo de Pq-Central diseñado para convertir la energía solar en energía química, permitiendo la síntesis de materiales avanzados como grafeno, quantum dots, óxidos metálicos, entre muchos otros",
+    "description": "Es un módulo de Illari-stat (central) diseñado para convertir la energía solar en energía química, permitiendo la síntesis de materiales avanzados como grafeno, quantum dots, óxidos metálicos, entre muchos otros",
     "features": [
-      "Módulo de Pq-central",
+      "Módulo de Illari-stat (central)",
       "Produce hasta 5V y 2 A",
       "Incluye un puntero laser rojo de baja intensidad"
     ],
@@ -168,6 +168,6 @@
     "available": true,
     "show": true,
     "price_soles": 30,
-    "purchase_context": "Módulo de Pq-central; puede operar de manera autónoma para síntesis de materiales."
+    "purchase_context": "Módulo de Illari-stat (central); puede operar de manera autónoma para síntesis de materiales."
   }
 ]

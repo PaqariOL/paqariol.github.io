@@ -62,7 +62,7 @@ key_features:
       title: Operación segura
       content: Diseñado para reducir riesgos y consumo de insumos en espacios educativos.
     - icon: "link"
-      title: PQ-central conectada
+      title: Illari-stat (central) conectado
       content: Controla experimentos desde el celular y coordina módulos en equipo.
     - icon: "bell"
       title: Educación offline
@@ -103,7 +103,7 @@ service:
           image: "/images/home/sections/sells-by-country.png"
 
   our_service:
-    - title: PQ-central y apps libres
+    - title: Illari-stat (central) y apps libres
       desctiption: El dispositivo modular y las aplicaciones gratuitas permiten prácticas STEM reales en entornos con recursos limitados.
       image: "/images/home/sections/collaboration.png"
       list:

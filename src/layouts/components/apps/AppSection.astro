@@ -1,7 +1,11 @@
 ---
 import { Image } from "astro:assets";
 
-const { app, downloadLink, buttonLabel } = Astro.props;
+const { app, downloadLink, buttonLabel, olderLink, olderLabel } = Astro.props;
+// Each app entry can override the page-level link (e.g. the guides card)
+const link = app.downloadLink ?? downloadLink;
+const label = app.buttonLabel ?? buttonLabel;
+const showOlder = olderLink && String(app.showOlder ?? "true") !== "false";
 const layoutCols = "lg:grid-cols-[0.9fr_1.1fr]";
 ---
 
@@ -33,9 +37,14 @@ const layoutCols = "lg:grid-cols-[0.9fr_1.1fr]";
     </div>
     <div class="flex w-full max-w-[260px] flex-col items-center justify-center gap-3 rounded-2xl bg-white p-3 shadow-inner">
       <Image src={app.qr} width={220} height={220} alt={`${app.name} QR`} class="h-[200px] w-[200px]" />
-      <a class="btn btn-primary" href={downloadLink} target="_blank" rel="noopener noreferrer">
-        {buttonLabel}
+      <a class="btn btn-primary" href={link} target="_blank" rel="noopener noreferrer">
+        {label}
       </a>
+      {showOlder && (
+        <a class="text-sm text-text-offset underline underline-offset-4 hover:text-primary" href={olderLink} target="_blank" rel="noopener noreferrer">
+          {olderLabel}
+        </a>
+      )}
     </div>
   </div>
 </article>

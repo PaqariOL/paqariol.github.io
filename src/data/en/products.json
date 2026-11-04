@@ -1,7 +1,7 @@
 [
   {
     "id_product": 1,
-    "name": "Pq-Central",
+    "name": "Illari-stat (central)",
     "title": "Illari-stat v1",
     "description": "Electrochemical device for potential control and current measurement. Widely used in research labs for educational applications in energy, environment, or industry.",
     "features": [
@@ -35,7 +35,7 @@
     "id_product": 2,
     "name": "Energy-Chem",
     "title": "Energy module",
-    "description": "Module for Pq-Central to perform experiments related to energy generation and storage devices (batteries, capacitors, fuel cells).",
+    "description": "Module for Illari-stat (central) to perform experiments related to energy generation and storage devices (batteries, capacitors, fuel cells).",
     "features": [
       "Voltage range: up to 5 V",
       "Current range: up to 500 mA",
@@ -56,8 +56,8 @@
     "available": false,
     "show": false,
     "price_soles": 30,
-    "price_note": "Buy separately or with Pq-Central",
-    "purchase_context": "Module that runs connected to Pq-Central or as a compact bench for quick tests."
+    "price_note": "Buy separately or with Illari-stat (central)",
+    "purchase_context": "Module that runs connected to Illari-stat (central) or as a compact bench for quick tests."
   },
   {
     "id_product": 3,
@@ -67,7 +67,7 @@
     "features": [
       "Automation of chemical sequences",
       "Microfluidic conditions for greater precision",
-      "Maximum of 2 modules per Pq-Central unit"
+      "Maximum of 2 modules per Illari-stat (central) unit"
     ],
     "images": [
       { "src": "/images/products/Digi-Chem/Digi-Chem_prod3.png", "isMain": true }
@@ -85,7 +85,7 @@
     "show": true,
     "price_soles": 30,
     "price_note": "Sold separately",
-    "purchase_context": "Complementary module connected to Pq-Central; can also operate individually for specific tasks."
+    "purchase_context": "Complementary module connected to Illari-stat (central); can also operate individually for specific tasks."
   },
   {
     "id_product": 4,
@@ -112,8 +112,8 @@
     "available": false,
     "show": false,
     "price_soles": 30,
-    "price_note": "Works standalone or as a Pq-Central module",
-    "purchase_context": "Can be used independently as a spectrophotometer or attached to Pq-Central."
+    "price_note": "Works standalone or as an Illari-stat (central) module",
+    "purchase_context": "Can be used independently as a spectrophotometer or attached to Illari-stat (central)."
   },
   {
     "id_product": 5,
@@ -140,16 +140,16 @@
     "available": true,
     "show": true,
     "price_soles": 15,
-    "price_note": "Works standalone or as a Pq-Central module",
-    "purchase_context": "Compatible with Pq-Central and usable independently for observations."
+    "price_note": "Works standalone or as an Illari-stat (central) module",
+    "purchase_context": "Compatible with Illari-stat (central) and usable independently for observations."
   },
   {
     "id_product": 6,
     "name": "NanoMat-Chem",
     "title": "Materials synthesis module",
-    "description": "A Pq-Central module designed to convert solar energy into chemical energy, enabling the synthesis of advanced materials such as graphene, quantum dots, metallic oxides, and more.",
+    "description": "An Illari-stat (central) module designed to convert solar energy into chemical energy, enabling the synthesis of advanced materials such as graphene, quantum dots, metallic oxides, and more.",
     "features": [
-      "Pq-Central module",
+      "Illari-stat (central) module",
       "Produces up to 5V and 2 A",
       "Includes a low-intensity red laser pointer"
     ],
@@ -168,6 +168,6 @@
     "available": true,
     "show": true,
     "price_soles": 30,
-    "purchase_context": "Pq-Central module; can operate autonomously for materials synthesis."
+    "purchase_context": "Illari-stat (central) module; can operate autonomously for materials synthesis."
   }
 ]

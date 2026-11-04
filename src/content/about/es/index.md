@@ -66,7 +66,7 @@ labImpact:
 pocketLab:
   title: "Ciencia en cualquier lugar"
   description: >-
-    PQ-central y nuestras apps gratuitas (Illari OpenLab y IllOL Académico) ponen el laboratorio
+    Illari-stat (central) y nuestras apps gratuitas (Illari OpenLab y IllOL Académico) ponen el laboratorio
     en el celular: control remoto, guías descargables y prácticas de electroquímica, energía y
     espectroscopía, microscopía y química digital y automatización que caben en un dispositivo portátil.
   image:

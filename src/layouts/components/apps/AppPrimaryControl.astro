@@ -2,7 +2,7 @@
 import { getEntryBySlug } from "astro:content";
 import AppSection from "./AppSection.astro";
 
-const { downloadLink, buttonLabel } = Astro.props;
+const { downloadLink, buttonLabel, olderLink, olderLabel } = Astro.props;
 const fallbackLocale = "es";
 const locale = Astro.currentLocale ?? fallbackLocale;
 
@@ -14,4 +14,4 @@ if (!appEntry) {
 const app = appEntry?.data ?? {};
 ---
 
-<AppSection app={app} downloadLink={downloadLink} buttonLabel={buttonLabel} />
+<AppSection app={app} downloadLink={downloadLink} buttonLabel={buttonLabel} olderLink={olderLink} olderLabel={olderLabel} />

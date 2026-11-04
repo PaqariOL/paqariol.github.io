@@ -8,5 +8,5 @@ highlights:
   - "Offline activity packs for limited connectivity."
   - "Shareable results and reflections."
 image: "/images/resources/apps/PQOL_academico_App.png"
-qr: "/images/resources/apps/QR_Paqari_App.png"
+qr: "/images/resources/apps/QR_apps_descarga.png"
 ---

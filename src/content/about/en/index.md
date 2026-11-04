@@ -67,7 +67,7 @@ labImpact:
 pocketLab:
   title: "Science Anywhere"
   description: >-
-    PQ-central and our free apps (Illari OpenLab and PQOL Academic) put the lab on your phone:
+    Illari-stat (central) and our free apps (Illari OpenLab and PQOL Academic) put the lab on your phone:
     remote control, downloadable guides, and electrochemistry, energy, and spectroscopy practices
     that fit in a portable device.
   image:

@@ -9,5 +9,5 @@ highlights:
   - "Realidad Aumentada: Experiencias interactivas de aprendizaje"
   - "Enfoque STEAM: Conexión entre Ciencia y Arte"
 image: "/images/resources/apps/PQOL_academico_App.png"
-qr: "/images/resources/apps/QR_Paqari_App.png"
+qr: "/images/resources/apps/QR_apps_descarga.png"
 ---

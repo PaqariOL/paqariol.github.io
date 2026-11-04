@@ -54,7 +54,7 @@ key_features:
       title: Safe operation
       content: Built to lower risks and material use in education spaces.
     - icon: "link"
-      title: PQ-central connected
+      title: Illari-stat (central) connected
       content: Control experiments from your phone and sync modules as a team.
     - icon: "bell"
       title: Offline education
@@ -95,7 +95,7 @@ service:
           image: "/images/home/sections/sells-by-country.png"
 
   our_service:
-    - title: PQ-central and free apps
+    - title: Illari-stat (central) and free apps
       desctiption: The modular device and free applications enable real STEM practice where resources are limited.
       image: "/images/home/sections/collaboration.png"
       list:
@@ -147,7 +147,7 @@ testimonial:
       avatar: "/images/shared/users/user-1.png"
       organization: Maker community
       rating: five
-      content: "Combining PQ-central with printable add-ons gives us freedom to prototype and document every iteration."
+      content: "Combining Illari-stat (central) with printable add-ons gives us freedom to prototype and document every iteration."
 
 galery:
   eyebrow: "Illari Gallery"

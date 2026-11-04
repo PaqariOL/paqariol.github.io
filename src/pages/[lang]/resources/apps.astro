@@ -28,8 +28,10 @@ const heroData = {
   index_path: "resources",
   page_title: pageData.title,
 };
-const downloadLink = pageData.downloadLink ?? "https://github.com/PaqariOL/PaqariOLab_apps";
+const downloadLink = pageData.downloadLink ?? "https://github.com/PaqariOL/PaqariOLab_apps/releases/latest";
 const buttonLabel = pageData.buttonLabel ?? "";
+const olderLink = pageData.olderLink;
+const olderLabel = pageData.olderLabel ?? (locale === "en" ? "Previous versions" : "Versiones anteriores");
 
 ---
 <Base title={pageData.title} meta_title={pageData.title} description={pageData.description}>
@@ -61,9 +63,9 @@ const buttonLabel = pageData.buttonLabel ?? "";
       dominant="to"
     />
     <div class="container space-y-12 relative">
-      <AppPrimaryControl downloadLink={downloadLink} buttonLabel={buttonLabel} />
-      <AppEducationCompanion downloadLink={downloadLink} buttonLabel={buttonLabel} />
-      <GuideArIllol downloadLink={downloadLink} buttonLabel={buttonLabel} />
+      <AppPrimaryControl downloadLink={downloadLink} buttonLabel={buttonLabel} olderLink={olderLink} olderLabel={olderLabel} />
+      <AppEducationCompanion downloadLink={downloadLink} buttonLabel={buttonLabel} olderLink={olderLink} olderLabel={olderLabel} />
+      <GuideArIllol downloadLink={downloadLink} buttonLabel={buttonLabel} olderLink={olderLink} olderLabel={olderLabel} />
     </div>
   </section>
 </Base>
