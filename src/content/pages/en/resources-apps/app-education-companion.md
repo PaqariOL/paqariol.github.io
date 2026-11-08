@@ -8,5 +8,7 @@ highlights:
   - "Offline activity packs for limited connectivity."
   - "Shareable results and reflections."
 image: "/images/resources/apps/PQOL_academico_App.png"
-qr: "/images/resources/apps/QR_apps_descarga.png"
+qr: "/images/resources/apps/QR_app_academico.png"
+downloadLink: "https://github.com/PaqariOL/PaqariOLab_apps/releases/tag/academico-v1.0"
+buttonLabel: "Download Academic v1"
 ---

@@ -8,5 +8,7 @@ highlights:
   - "Experiment presets and safety reminders."
   - "Offline access to essential guides."
 image: "/images/resources/apps/Paqari_Open_lap_App.png"
-qr: "/images/resources/apps/QR_apps_descarga.png"
+qr: "/images/resources/apps/QR_app_control.png"
+downloadLink: "https://github.com/PaqariOL/PaqariOLab_apps/releases/tag/v2.0"
+buttonLabel: "Download Illari OpenLab v2"
 ---

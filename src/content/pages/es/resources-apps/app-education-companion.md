@@ -9,5 +9,7 @@ highlights:
   - "Realidad Aumentada: Experiencias interactivas de aprendizaje"
   - "Enfoque STEAM: Conexión entre Ciencia y Arte"
 image: "/images/resources/apps/PQOL_academico_App.png"
-qr: "/images/resources/apps/QR_apps_descarga.png"
+qr: "/images/resources/apps/QR_app_academico.png"
+downloadLink: "https://github.com/PaqariOL/PaqariOLab_apps/releases/tag/academico-v1.0"
+buttonLabel: "Descargar Académico v1"
 ---

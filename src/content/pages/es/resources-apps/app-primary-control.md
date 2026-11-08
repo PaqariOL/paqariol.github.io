@@ -9,5 +9,7 @@ highlights:
   - "Parámetros a la medida: Configuración fácil de experimentos."
   - "Análisis y comparación: Herramientas de evaluación y comparación de los resultados."
 image: "/images/resources/apps/Paqari_Open_lap_App.png"
-qr: "/images/resources/apps/QR_apps_descarga.png"
+qr: "/images/resources/apps/QR_app_control.png"
+downloadLink: "https://github.com/PaqariOL/PaqariOLab_apps/releases/tag/v2.0"
+buttonLabel: "Descargar Illari OpenLab v2"
 ---
