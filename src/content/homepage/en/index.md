@@ -2,7 +2,7 @@
 banner:
   title: "Learn, experiment, create..."
   content: "Illari OpenLab makes chemistry, bio and nanotechnology accessible to everyone."
-  image: /images/home/banner/PQOL_IMG_WEB5.png
+  image: /images/home/banner/PQOL_IMG_WEB5.webp
   button:
     label: Learn more about us
     link: "/about"
@@ -40,7 +40,7 @@ call_to_action:
   button:
     label: "Visit us on YouTube"
     link: "https://www.youtube.com/@IllariOpenLab"
-  image: "/images/home/cta/sci_divulg2025.png"
+  image: "/images/home/cta/sci_divulg2025.webp"
 
 ##key features
 key_features:
@@ -155,19 +155,19 @@ galery:
   description: "Moments that inspire us: workshops, prototypes, and community gatherings."
   galery_list:
     - name: Tafel curves in class
-      image: "/images/home/gallery/Baterias2025.png"
+      image: "/images/home/gallery/Baterias2025.webp"
     - name: Catalysts on plates
-      image: "/images/home/gallery/Pqlab_catal_96pi.png"
+      image: "/images/home/gallery/Pqlab_catal_96pi.webp"
     - name: Hacking matter
       image: "/images/home/gallery/PqOl_hack_matter.png"
     - name: Environmental sensing
       image: "/images/home/gallery/pqol2025_egqds.png"
     - name: 2D materials
-      image: "/images/home/gallery/pqol2025_egraphen.png"
+      image: "/images/home/gallery/pqol2025_egraphen.webp"
     - name: Community prototypes
-      image: "/images/home/gallery/pqol2025_qgqds.png"
+      image: "/images/home/gallery/pqol2025_qgqds.webp"
     - name: PQOL applications
-      image: "/images/home/gallery/PqOLab_applicaciones_2.png"
+      image: "/images/home/gallery/PqOLab_applicaciones_2.webp"
     - name: Surfaces and energy
-      image: "/images/home/gallery/Superficies2025.png"
+      image: "/images/home/gallery/Superficies2025.webp"
 ---

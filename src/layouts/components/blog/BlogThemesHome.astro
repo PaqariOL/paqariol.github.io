@@ -14,9 +14,12 @@ const categories_data = currentLocale === "en" ? categoriesEN : categoriesES;
 
 // ICONOS
 const iconMap: Record<string, string> = {
-  cientifico: "https://cdn-icons-png.flaticon.com/512/3212/3212608.png",
-  educativo: "https://cdn-icons-png.flaticon.com/512/3135/3135810.png",
-  entretenimiento: "https://cdn-icons-png.flaticon.com/512/1087/1087840.png",
+  cientifico: "/images/shared/icons/blog-cientifico.svg",
+  educativo: "/images/shared/icons/blog-educativo.svg",
+  entretenimiento: "/images/shared/icons/blog-entretenimiento.svg",
+  scientific: "/images/shared/icons/blog-cientifico.svg",
+  educational: "/images/shared/icons/blog-educativo.svg",
+  entertainment: "/images/shared/icons/blog-entretenimiento.svg",
 };
 
 const normalizeKey = (s: string = "") =>
@@ -64,7 +67,7 @@ const getCategoryKey = (data: any) => {
 </style>
 
 <section data-animate="zoom-in" class="section">
-  <div class="max-w-7xl mx-auto px-3 sm:px-5 md:px-8 xl:px-6 space-y-8">
+  <div class="container space-y-8">
     <div class="text-center space-y-3">
       <h2 class="text-3xl md:text-4xl font-extrabold text-default">{blogThemes?.title}</h2>
       <p class="max-w-3xl mx-auto text-text-offset leading-relaxed">{blogThemes?.description}</p>

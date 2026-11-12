@@ -2,6 +2,12 @@ html {
   @apply text-base text-default;
 }
 
+/* Evita el desplazamiento horizontal causado por las animaciones de entrada */
+html,
+body {
+  overflow-x: clip;
+}
+
 /*
 body {
   @apply bg-default bg-[url('/images/shared/backgrounds/body-bg.svg')] bg-repeat font-primary font-normal leading-relaxed text-text;

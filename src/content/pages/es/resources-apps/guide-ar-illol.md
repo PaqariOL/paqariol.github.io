@@ -8,7 +8,7 @@ highlights:
   - "Moléculas"
   - "Materiales"
   - "Tecnologías actuales"
-image: "/images/resources/apps/AR_illol_s2026.png"
+image: "/images/resources/apps/AR_illol_s2026.webp"
 qr: "/images/resources/apps/QR_guias_manuales.png"
 downloadLink: "https://github.com/PaqariOL/PaqariOLab_apps/tree/master/Guias_y_manuales"
 buttonLabel: "Ver guías y manuales"

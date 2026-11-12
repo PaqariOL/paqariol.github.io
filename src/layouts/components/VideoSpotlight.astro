@@ -2,6 +2,14 @@
 import VideoComponent from "@layouts/function-components/VideoComponent";
 
 const { videoSection } = Astro.props;
+
+// Íconos de las tarjetas de características (se usan en orden)
+const highlightIcons = [
+  "M7 2h10a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zM11 18h2M13 6l-2 4h3l-2 4",   // laboratorio portátil
+  "M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.7 3h10.6a2 2 0 0 0 1.7-3l-5-9V3M7 15h10",                     // experimentos
+  "M12 2l9 5v10l-9 5-9-5V7zM12 12l9-5M12 12v10M12 12L3 7",                                       // realidad aumentada
+  "M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z",   // aprendizaje por proyectos
+];
 ---
 <section class="section relative overflow-hidden pt-8 sm:pt-0 pb-16">
   <div class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-transparent via-paqariGreen/5 to-transparent"></div>
@@ -18,10 +26,14 @@ const { videoSection } = Astro.props;
 
       {videoSection.highlights.length > 0 && (
         <ul class="grid gap-3 sm:grid-cols-2">
-          {videoSection.highlights.map((item: string) => (
-            <li class="flex items-start gap-3 rounded-xl bg-background-offset/60 p-4 shadow-sm ring-1 ring-border/50">
-              <span class="mt-1 inline-block h-2 w-2 rounded-full bg-paqariYellow shadow-[0_0_0_6px_rgba(243,164,21,0.25)]"></span>
-              <span class="text-base text-default" set:html={item}></span>
+          {videoSection.highlights.map((item: string, i: number) => (
+            <li class="highlight-item flex flex-col items-start gap-3 rounded-xl bg-background-offset/60 p-4 shadow-sm ring-1 ring-border/50">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-paqariYellow/15 text-paqariYellow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5" aria-hidden="true">
+                  <path d={highlightIcons[i % highlightIcons.length]} />
+                </svg>
+              </span>
+              <span class="text-[15px] leading-relaxed text-text-offset" set:html={item}></span>
             </li>
           ))}
         </ul>
@@ -75,3 +87,13 @@ const { videoSection } = Astro.props;
     </div>
   </div>
 </section>
+
+<style>
+  /* Título de cada característica en su propia línea */
+  .highlight-item :global(strong) {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    color: var(--color-text);
+  }
+</style>

@@ -1,7 +1,7 @@
 ---
 translationKey: header
 topbar:
-  location_label: "Illari OpenLab"
+  location_label: "Lima, Perú"
 blog:
   subtitle: "Stories by category"
   cta:

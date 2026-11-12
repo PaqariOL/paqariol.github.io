@@ -17,7 +17,7 @@ whoWeAre:
     Illari OpenLab toma su nombre del quechua para “amanecer resplandeciente” y representa una ciencia más accesible.
     Creamos herramientas para llevar la experimentación científica más allá del laboratorio convencional, integrando hardware, software y aprendizaje basado en proyectos para aprender haciendo y transformar la curiosidad en ciencia y tecnología.
   image:
-    src: "/images/about/whoWeAre/photo-1521737604893-d14cc237f11d.jpeg"
+    src: "/images/about/whoWeAre/photo-1521737604893-d14cc237f11d.webp"
     alt: "Equipo de Illari colaborando"
 vision:
   title: "Visión"
@@ -97,13 +97,13 @@ gallery:
   title: Crecimos escuchando a las aulas que no tenían laboratorio
   description: "Estas escenas muestran prototipos, talleres solares y prácticas reales que llevamos a escuelas y comunidades."
   images:
-    - src: "/images/about/gallery/photo-1554384645-13eab165c24b.jpeg"
+    - src: "/images/about/gallery/photo-1554384645-13eab165c24b.webp"
       alt: "Experimentos de baterías en un taller Illari"
       size: feature
-    - src: "/images/about/gallery/photo-1556761175-4b46a572b786.jpeg"
+    - src: "/images/about/gallery/photo-1556761175-4b46a572b786.webp"
       alt: "Montaje de kit de catálisis para estudiantes"
       size: portrait
-    - src: "/images/about/gallery/photo-1487058792275-0ad4aaf24ca7.jpeg"
+    - src: "/images/about/gallery/photo-1487058792275-0ad4aaf24ca7.webp"
       alt: "Prototipos de hackathon con Illari OpenLab"
       size: landscape
     - src: "/images/about/gallery/photo-1504384308090-c894fdcc538d.jpeg"

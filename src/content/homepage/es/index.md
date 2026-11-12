@@ -6,7 +6,7 @@ banner:
     **Construyendo ciencia y tecnología, átomo por átomo.** 
       
     *Illari OpenLab lleva la química, la biotecnología y la nanotecnología al alcance de todos.*
-  image: /images/home/banner/PQOL_IMG_WEB5.png
+  image: /images/home/banner/PQOL_IMG_WEB5.webp
   button:
     label: Conoce más
     link: "/about"
@@ -26,12 +26,12 @@ video_section:
   title: "La ciencia no solo se aprende. Se experimenta"
   description: "<strong>Illari OpenLab</strong> combina hardware, software y contenidos para democratizar la experimentación STEM mediante aprendizaje basado en proyectos."
   svg: /images/home/banner/illari_svgator.svg  # <-- Ruta a tu archivo SVG animado de SVGator
-  image: /images/home/banner/PQOL_IMG_WEB5.png
+  image: /images/home/banner/PQOL_IMG_WEB5.webp
   highlights:
-    - "<strong style='display:block; text-align:center;'>Laboratorio modular, portátil e inalámbrico</strong><br> controlado desde tu celular y alimentado por energía solar"
-    - "<strong style='display:block; text-align:center;'>+40 experimentos seguros y accesibles</strong><br> aplicados a química, energía, medio ambiente, industria y biotecnología."
-    - "<strong style='display:block; text-align:center;'>Experimentos, Realidad Aumentada y Ciencia + Arte</strong><br> para transformar la curiosidad en proyectos."
-    - "<strong style='display:block; text-align:center;'>Aprendizaje basado en proyectos</strong><br> transformando conceptos científicos en experiencias que inspiran, construyen y resuelven."
+    - "<strong>Laboratorio modular, portátil e inalámbrico</strong> controlado desde tu celular y alimentado por energía solar"
+    - "<strong>+40 experimentos seguros y accesibles</strong> aplicados a química, energía, medio ambiente, industria y biotecnología."
+    - "<strong>Experimentos, Realidad Aumentada y Ciencia + Arte</strong> para transformar la curiosidad en proyectos."
+    - "<strong>Aprendizaje basado en proyectos</strong> transformando conceptos científicos en experiencias que inspiran, construyen y resuelven."
  
 
 blog_themes:
@@ -48,7 +48,7 @@ call_to_action:
   button:
     label: "Visítanos en YouTube"
     link: "https://www.youtube.com/@IllariOpenLab"
-  image: "/images/home/cta/sci_divulg2025.png"
+  image: "/images/home/cta/sci_divulg2025.webp"
 
 ##key features
 key_features:

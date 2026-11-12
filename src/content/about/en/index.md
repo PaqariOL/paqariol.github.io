@@ -18,7 +18,7 @@ whoWeAre:
     We build a modular, portable lab that blends technology, creativity, and community so any
     classroom can experiment with chemistry, energy, and nanotech without barriers.
   image:
-    src: "/images/about/whoWeAre/photo-1521737604893-d14cc237f11d.jpeg"
+    src: "/images/about/whoWeAre/photo-1521737604893-d14cc237f11d.webp"
     alt: "Illari team collaborating"
 vision:
   title: "Vision"
@@ -98,13 +98,13 @@ gallery:
   title: We grew by listening to classrooms without labs
   description: "These scenes show prototypes, solar workshops, and real practices we bring to schools and communities."
   images:
-    - src: "/images/about/gallery/photo-1554384645-13eab165c24b.jpeg"
+    - src: "/images/about/gallery/photo-1554384645-13eab165c24b.webp"
       alt: "Battery experiments during a Illari workshop"
       size: feature
-    - src: "/images/about/gallery/photo-1556761175-4b46a572b786.jpeg"
+    - src: "/images/about/gallery/photo-1556761175-4b46a572b786.webp"
       alt: "Catalysis lab kit setup for students"
       size: portrait
-    - src: "/images/about/gallery/photo-1487058792275-0ad4aaf24ca7.jpeg"
+    - src: "/images/about/gallery/photo-1487058792275-0ad4aaf24ca7.webp"
       alt: "Hackathon prototypes with Illari OpenLab"
       size: landscape
     - src: "/images/about/gallery/photo-1504384308090-c894fdcc538d.jpeg"

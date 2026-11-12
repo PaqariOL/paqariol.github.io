@@ -482,14 +482,15 @@ select:invalid {
     @apply mx-auto -mt-12 h-[90px] w-[90px] -translate-y-5 rounded-full p-0.5;
   }
 }
+/* La nota de cada testimonio puede ir en inglés o en español: five/cinco, four/cuatro */
 .review-rating {
-  &.five {
+  &.five, &.cinco {
     svg {
       @apply fill-secondary text-secondary;
     }
   }
 
-  &.four {
+  &.four, &.cuatro {
     svg {
       &:not(:last-child) {
         @apply fill-secondary text-secondary;
@@ -500,7 +501,7 @@ select:invalid {
     }
   }
 
-  &.three {
+  &.three, &.tres {
     svg {
       @apply fill-secondary text-secondary;
 
@@ -514,7 +515,7 @@ select:invalid {
     }
   }
 
-  &.two {
+  &.two, &.dos {
     svg {
       &:first-child {
         @apply fill-secondary text-secondary;
@@ -526,7 +527,7 @@ select:invalid {
     }
   }
 
-  &.one {
+  &.one, &.uno {
     svg {
       &:first-child {
         @apply fill-secondary text-secondary;

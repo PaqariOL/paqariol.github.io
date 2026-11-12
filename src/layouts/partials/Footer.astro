@@ -57,7 +57,7 @@ function isActive(pathname: string, baseUrl: string, locale: string) {
         <div class="mt-6 space-y-2 leading-relaxed">
           {footerDescription && <p>{footerDescription}</p>}
           {taglines.map((tagline: { text: string; color?: string }, index: number) => (
-            <p class="font-semibold" style={tagline.color ? `color: ${tagline.color};` : undefined} key={`${tagline.text}-${index}`}>
+            <p class="text-sm font-medium text-text-offset" style={tagline.color ? `color: ${tagline.color};` : undefined} key={`${tagline.text}-${index}`}>
               {tagline.text}
             </p>
           ))}

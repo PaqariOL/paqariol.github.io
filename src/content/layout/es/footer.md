@@ -3,11 +3,8 @@ translationKey: footer
 description: ""
 taglines:
   - text: "Construyendo un futuro sostenible"
-    color: "#002060"
   - text: "Construyendo un mañana mejor"
-    color: "#ae2012"
   - text: "Hamuq pachata aswan allin huqarispa"
-    color: "#00b050"
 sections:
   socials_title: "Redes sociales"
   quick_links_title: "Enlaces rápidos"
