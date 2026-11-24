@@ -9,6 +9,6 @@ highlights:
   - "Shareable results and reflections."
 image: "/images/resources/apps/PQOL_academico_App.png"
 qr: "/images/resources/apps/QR_app_academico.png"
-downloadLink: "https://github.com/PaqariOL/PaqariOLab_apps/releases/tag/academico-v1.0"
-buttonLabel: "Download Academic v1"
+downloadLink: "https://github.com/PaqariOL/PaqariOLab_apps/releases/tag/academico-v2.0"
+buttonLabel: "Download Academic v2"
 ---
